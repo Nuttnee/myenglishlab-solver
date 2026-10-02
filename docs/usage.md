@@ -2,7 +2,7 @@
 
 ## Cài lần đầu
 
-1. Tải **myenglishlab-answer-helper.zip** ở [bản phát hành mới nhất](https://github.com/Nuttnee/myenglishlab-v11-plus/releases/latest). Hai mục Source code của GitHub là mã nguồn, không phải gói cài gọn.
+1. Tải **myenglishlab-solver.zip** ở [bản phát hành mới nhất](https://github.com/Nuttnee/myenglishlab-solver/releases/latest). Hai mục Source code của GitHub là mã nguồn, không phải gói cài gọn.
 2. Giải nén vào thư mục cố định trên máy.
 3. Mở `chrome://extensions` hoặc `edge://extensions`, bật **Developer mode**, chọn **Load unpacked** và chọn thư mục chứa `manifest.json`.
 4. Mở MyEnglishLab và đăng nhập như thường lệ. Bấm **EN**, icon extension hoặc **Alt+Shift+M** để mở bảng.
@@ -13,7 +13,7 @@ Chép các file trong ZIP mới vào đúng thư mục đã nạp. Bấm **Reloa
 
 ## Làm bài
 
-1. Mở bài trên Pearson và kiểm tra tên bài trong bảng **Answer Helper**.
+1. Mở bài trên Pearson và kiểm tra tên bài trong bảng **MyEnglishLab Solver**.
 2. Nếu cần, bấm **Nhận bài đang mở**. Khi chưa tự nhận, tìm và chọn đúng bài trong kho; **Ghi nhớ bài đang mở** lưu liên kết cho lần sau.
 3. Bấm nút tự làm phù hợp với bài: điền, chọn, ô chữ, sắp xếp hoặc kéo thả. Extension chỉ làm phần ghép được và báo câu còn thiếu.
 4. Kiểm tra đáp án trên trang rồi tự **Save/Submit**.

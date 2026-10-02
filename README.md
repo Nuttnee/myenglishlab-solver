@@ -1,12 +1,12 @@
 <div align="center">
 
-# MyEnglishLab Answer Helper
+# MyEnglishLab Solver
 
 Tra cứu đáp án · Nhận diện bài · Hỗ trợ thao tác trên MyEnglishLab
 
 **Chrome & Edge** · Manifest V3 · Giao diện tiếng Việt
 
-[Tải bản cài mới nhất](https://github.com/Nuttnee/myenglishlab-v11-plus/releases/latest) · [Hướng dẫn sử dụng](docs/usage.md) · [Tài liệu kỹ thuật](docs/README.md)
+[Tải bản cài mới nhất](https://github.com/Nuttnee/myenglishlab-solver/releases/latest) · [Hướng dẫn sử dụng](docs/usage.md) · [Tài liệu kỹ thuật](docs/README.md)
 
 </div>
 
@@ -14,7 +14,7 @@ Tra cứu đáp án · Nhận diện bài · Hỗ trợ thao tác trên MyEnglis
 
 ## Bắt đầu trong 3 bước
 
-1. Vào **[Releases](https://github.com/Nuttnee/myenglishlab-v11-plus/releases/latest)** và tải **myenglishlab-answer-helper.zip** trong mục Assets.
+1. Vào **[Releases](https://github.com/Nuttnee/myenglishlab-solver/releases/latest)** và tải **myenglishlab-solver.zip** trong mục Assets.
 2. Giải nén → mở `chrome://extensions` hoặc `edge://extensions` → bật **Developer mode** → **Load unpacked** → chọn thư mục chứa `manifest.json`.
 3. Mở bài MyEnglishLab, bấm **EN** hoặc **Alt+Shift+M**, kiểm tra bài được nhận rồi chọn nút tự làm phù hợp.
 
@@ -36,7 +36,7 @@ Extension giữ các ví dụ có sẵn và báo những câu chưa ghép đư�
 
 - **[Cách dùng & xử lý sự cố](docs/usage.md)** — cài đặt, cập nhật, chọn bài và gửi chẩn đoán.
 - **[Kiểm thử & cấu trúc mã](docs/README.md)** — báo cáo theo tính năng và cách đóng gói.
-- **[Ghi chú phát hành](docs/releases/v1.14.4.md)** — phạm vi của bản release đầu tiên.
+- **[Ghi chú phát hành](docs/releases/v1.14.5.md)** — thay đổi trong bản mới nhất.
 
 ## Dành cho phát triển
 

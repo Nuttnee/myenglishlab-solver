@@ -21,7 +21,7 @@ def build():
     contents = {name: (ROOT / name).read_bytes() for name in names}
     contents['README.md'] = (ROOT / 'docs/usage.md').read_bytes()
     DIST.mkdir(exist_ok=True)
-    archive = DIST / 'myenglishlab-answer-helper.zip'
+    archive = DIST / 'myenglishlab-solver.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
         for name, data in sorted(contents.items()):
             # Stable timestamps and permissions make identical sources reproducible.

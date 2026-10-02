@@ -10,7 +10,7 @@
     .panel{position:fixed;right:14px;bottom:14px;width:min(440px,calc(100vw - 24px));height:min(82vh,850px);display:flex;flex-direction:column;border:1px solid #d9e0ea;border-radius:12px;overflow:hidden;background:#f6f8fb;box-shadow:0 16px 40px #0f172a40;font:14px system-ui}
     .head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;background:#176b5b;color:white;cursor:move;touch-action:none;user-select:none}.head strong{font-size:13px}.head button{border:1px solid #ffffff55;border-radius:6px;background:#ffffff15;color:white;height:28px;min-width:30px;cursor:pointer}
     iframe{width:100%;flex:1;min-height:0;border:0;background:#f6f8fb}.bubble{position:fixed;right:0;top:42vh;border:0;border-radius:10px 0 0 10px;background:#176b5b;color:white;font:bold 13px system-ui;padding:15px 10px;box-shadow:0 6px 18px #0003;cursor:pointer}
-  </style><section class="panel" hidden aria-label="MyEnglishLab Answer Helper"><div class="head"><strong>MyEnglishLab · Bảng đáp án</strong><button title="Thu nhỏ" aria-label="Thu nhỏ">−</button></div></section><button class="bubble" title="Mở bảng đáp án (Alt+Shift+M)">EN</button>`;
+  </style><section class="panel" hidden aria-label="MyEnglishLab Solver"><div class="head"><strong>MyEnglishLab Solver</strong><button title="Thu nhỏ" aria-label="Thu nhỏ">−</button></div></section><button class="bubble" title="Mở bảng đáp án (Alt+Shift+M)">EN</button>`;
   document.documentElement.append(host);
   const panel = root.querySelector('.panel'), bubble = root.querySelector('.bubble'), head = root.querySelector('.head');
   function show(open) {

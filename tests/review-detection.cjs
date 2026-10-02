@@ -17,7 +17,7 @@ function fixture(label='R2',combined=false){return `<!doctype html><meta charset
  try{
   await ctx.route('https://**/*',r=>r.fulfill({contentType:'text/html',body:html}));const p=await ctx.newPage();
   await p.goto('https://myenglishlab.pearson-intl.com/activities/review-fixture/0/solve');await p.locator('mel-answer-root .bubble').click();await p.frameLocator('mel-answer-root iframe').locator('#lesson h2').waitFor();const app=p.frames().find(f=>f.url().includes('popup.html?panel=1'));
-  assert.equal(await app.evaluate(()=>state.lessonId),lesson.id);assert.equal(await app.locator('h1').innerText(),'Answer Helper');
+  assert.equal(await app.evaluate(()=>state.lessonId),lesson.id);assert.equal(await app.locator('h1').innerText(),'MyEnglishLab Solver');
   const result=await app.evaluate(id=>chrome.runtime.sendMessage({type:'MEL_AUTO_SOLVE',lessonId:id}),lesson.id);assert.equal(result.done,6,JSON.stringify(result));assert(!result.error);
   for(const i of lesson.items.filter(i=>!i.isExample))assert.equal(await p.locator('#i_1RESPONSE_'+i.n).innerText(),i.answer[0]);assert.equal(await p.locator('.drop.example').innerText(),'front of you');assert.equal(await p.evaluate(()=>submits),0);
   const again=await app.evaluate(id=>chrome.runtime.sendMessage({type:'MEL_AUTO_SOLVE',lessonId:id}),lesson.id);assert.equal(again.done,0);assert.equal(again.skipped,6);
