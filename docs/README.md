@@ -4,7 +4,7 @@
 
 - [Cài đặt và sử dụng](usage.md)
 - [Quy tắc thao tác và ghép đáp án](development/interaction-rules.md)
-- [Ghi chú bản mới nhất](releases/v1.14.5.md)
+- [Ghi chú bản mới nhất](releases/v1.14.6.md)
 - [Release đầu tiên](releases/v1.14.4.md)
 
 ## Mã nguồn và đóng gói
@@ -16,6 +16,8 @@ Từ thư mục repo, chạy `python tools/package-release.py`. Kết quả nằ
 Các kiểm thử `.cjs` cần Node.js, Playwright và Chromium/Edge hỗ trợ extension. Ví dụ: `node tests/money-overview.cjs`. Có thể đặt `MEL_TEST_BROWSER` thành đường dẫn trình duyệt. Riêng bài smoke test này hỗ trợ `MEL_TEST_EXTENSION` để chạy trên thư mục giải nén từ ZIP.
 
 ## Kiểm thử theo tính năng
+
+- [Money Ex 6 — danh sách từ chọn nhiều](verification-money-word-list.md)
 
 Các báo cáo ghi phạm vi, nguồn bằng chứng và giới hạn. Kiểm thử trên trang tái hiện không đồng nghĩa đã kiểm chứng toàn bộ bài trên phiên Pearson thật.
 
