@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Ô chữ Shopping
+
+**8.3 · Vocabulary: shopping · Ex 1**: đã liên kết với bài Shopping crossword trong kho. Bấm **Tự điền ô chữ** để điền BRAND, SALE, PRICE, EXPENSIVE, MARKET; giữ STORE ví dụ. Dùng cơ chế ô chữ chung, kiểm tra số ô và thứ tự theo vị trí trên lưới. Xem [kiểm thử Shopping Ex 1](docs/verification-shopping-crossword.md).
+
 ## Chọn nhiều từ trong đoạn văn
 
 **8.2 · Listening · Ex 6B**: bấm **Tự chọn các từ trong đoạn**. Ghép mỗi từ/cụm từ với câu trong kho để phân biệt các từ lặp lại. Giữ ví dụ và đáp án đã chọn, chỉ bấm những đáp án còn thiếu; dừng nếu có lựa chọn khác cần kiểm tra. Quy tắc dùng chung cho nhóm chọn nhiều từ có trạng thái `aria-pressed`. Xem [kiểm thử chọn nhiều từ](docs/verification-multiple-words.md). Bộ [chẩn đoán đoạn văn](docs/verification-passage-widgets.md) vẫn hỗ trợ các cấu trúc chưa nhận diện.

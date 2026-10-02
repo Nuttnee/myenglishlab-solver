@@ -1,3 +1,5 @@
+Ô chữ toàn hàng ngang, Shopping 8.3 Ex 1: [kiểm thử](docs/verification-shopping-crossword.md).
+
 Chọn nhiều từ trong đoạn, Listening 8.2 Ex 6B: [kiểm thử](docs/verification-multiple-words.md).
 
 Lịch sử bổ sung chẩn đoán đoạn văn: [báo cáo](docs/verification-passage-widgets.md).
