@@ -1,3 +1,5 @@
+Money Unit 8 Ex 1, đoạn nói của Finn: [kiểm thử](docs/verification-money-overview.md).
+
 Ghép hội thoại vào hình 8.3 Listening Ex 5A: [kiểm thử](docs/verification-conversation-pictures.md).
 
 Đoạn văn nhiều ô không đánh số, Function 8.3 Ex 3: [kiểm thử](docs/verification-shopping-paragraph.md).

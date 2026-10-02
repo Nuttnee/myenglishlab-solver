@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Money: đoạn nói của Finn
+
+**Unit 8 · Money · Ex 1**: đã liên kết với bài Talking about shopping habits trong kho. Bấm **Tự điền cả bài** để điền buying, also, markets, about, feel; giữ lot ví dụ. Dùng cơ chế ghép ô trong đoạn văn hiện có. Xem [kiểm thử Money Ex 1](docs/verification-money-overview.md).
+
 ## Ghép hội thoại vào hình
 
 **8.3 · Listening · Ex 5A**: đã liên kết bài và đối chiếu vị trí bốn hình. Bấm **Tự làm cả bài**: trên trái Conversation 3, trên phải Conversation 4, dưới phải Conversation 2; giữ Conversation 1 ví dụ ở dưới trái. Số câu trong nguồn là số hội thoại, không phải thứ tự hình. Chỉ dùng ánh xạ vị trí khi bố cục 2×2, khay từ, chuỗi ô đích và ví dụ khớp. Xem [kiểm thử Ex 5A](docs/verification-conversation-pictures.md).
