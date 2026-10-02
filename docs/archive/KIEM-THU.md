@@ -1,38 +1,38 @@
-Money Unit 8 Ex 1, đoạn nói của Finn: [kiểm thử](docs/verification-money-overview.md).
+Money Unit 8 Ex 1, đoạn nói của Finn: [kiểm thử](../verification-money-overview.md).
 
-Ghép hội thoại vào hình 8.3 Listening Ex 5A: [kiểm thử](docs/verification-conversation-pictures.md).
+Ghép hội thoại vào hình 8.3 Listening Ex 5A: [kiểm thử](../verification-conversation-pictures.md).
 
-Đoạn văn nhiều ô không đánh số, Function 8.3 Ex 3: [kiểm thử](docs/verification-shopping-paragraph.md).
+Đoạn văn nhiều ô không đánh số, Function 8.3 Ex 3: [kiểm thử](../verification-shopping-paragraph.md).
 
-Ô chữ toàn hàng ngang, Shopping 8.3 Ex 1: [kiểm thử](docs/verification-shopping-crossword.md).
+Ô chữ toàn hàng ngang, Shopping 8.3 Ex 1: [kiểm thử](../verification-shopping-crossword.md).
 
-Chọn nhiều từ trong đoạn, Listening 8.2 Ex 6B: [kiểm thử](docs/verification-multiple-words.md).
+Chọn nhiều từ trong đoạn, Listening 8.2 Ex 6B: [kiểm thử](../verification-multiple-words.md).
 
-Lịch sử bổ sung chẩn đoán đoạn văn: [báo cáo](docs/verification-passage-widgets.md).
+Lịch sử bổ sung chẩn đoán đoạn văn: [báo cáo](../verification-passage-widgets.md).
 
-Nhận và điền bài mẫu Writing 8.2 Ex 3B: [kiểm thử](docs/verification-writing-advert.md).
+Nhận và điền bài mẫu Writing 8.2 Ex 3B: [kiểm thử](../verification-writing-advert.md).
 
-Chèn từ vào ô hiện khi rê chuột, Writing 8.2 Ex 3A: [kiểm thử](docs/verification-insert-word.md).
+Chèn từ vào ô hiện khi rê chuột, Writing 8.2 Ex 3A: [kiểm thử](../verification-insert-word.md).
 
-Nhận và chọn đáp án Reading 8.1 Ex 6A: [kiểm thử](docs/verification-single-reading-choice.md).
+Nhận và chọn đáp án Reading 8.1 Ex 6A: [kiểm thử](../verification-single-reading-choice.md).
 
-Tự chọn từ 8.1 Ex 3 từ cấu trúc chẩn đoán thật: [kiểm thử](docs/verification-inline-choices.md).
+Tự chọn từ 8.1 Ex 3 từ cấu trúc chẩn đoán thật: [kiểm thử](../verification-inline-choices.md).
 
-Lịch sử bổ sung chẩn đoán điều khiển chưa nhận diện: [báo cáo cũ](docs/verification-unknown-widgets.md).
+Lịch sử bổ sung chẩn đoán điều khiển chưa nhận diện: [báo cáo cũ](../verification-unknown-widgets.md).
 
-Kiểm thử nhận bài Changes Ex 3 từ nhóm lựa chọn trong ngoặc: [báo cáo](docs/verification-video-choices.md).
+Kiểm thử nhận bài Changes Ex 3 từ nhóm lựa chọn trong ngoặc: [báo cáo](../verification-video-choices.md).
 
-Kiểm thử hội thoại 7.3 Ex 2, câu ngắn lặp lại và tiếp tục bài đang điền dở: [báo cáo](docs/verification-dialogue-blanks.md).
+Kiểm thử hội thoại 7.3 Ex 2, câu ngắn lặp lại và tiếp tục bài đang điền dở: [báo cáo](../verification-dialogue-blanks.md).
 
-Kiểm thử kéo từ 7.2 Ex 4 và quy tắc nhiều ô trong một đoạn: [báo cáo](docs/verification-inline-blanks.md).
+Kiểm thử kéo từ 7.2 Ex 4 và quy tắc nhiều ô trong một đoạn: [báo cáo](../verification-inline-blanks.md).
 
-Kiểm thử Writing 7.1 Ex 8: [báo cáo](docs/verification-paragraph-ranks.md).
+Kiểm thử Writing 7.1 Ex 8: [báo cáo](../verification-paragraph-ranks.md).
 
-Kiểm thử Reading 7.1 Ex 6: [báo cáo](docs/verification-reading-pictures.md).
+Kiểm thử Reading 7.1 Ex 6: [báo cáo](../verification-reading-pictures.md).
 
-Kiểm thử nhận bài nghe dưới tiêu đề Grammar: [báo cáo](docs/verification-header-skill.md).
+Kiểm thử nhận bài nghe dưới tiêu đề Grammar: [báo cáo](../verification-header-skill.md).
 
-Kiểm thử cập nhật 2026-10-02: [Nhận bài ôn tập và giao diện](docs/verification-review.md).
+Kiểm thử cập nhật 2026-10-02: [Nhận bài ôn tập và giao diện](../verification-review.md).
 
 Bản hiện tại: **1.11.0**. Xem [KIEM-THU-1.11.0.md](KIEM-THU-1.11.0.md).
 

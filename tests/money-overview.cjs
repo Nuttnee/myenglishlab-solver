@@ -1,7 +1,7 @@
 // Screenshot text reconstructed with native fields and simulated change handlers.
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),vm=require('node:vm'),assert=require('node:assert/strict');
 const {chromium}=require('playwright');
-const base=path.resolve(__dirname,'..'),seed=JSON.parse(fs.readFileSync(path.join(base,'data/seed.json'),'utf8'));
+const base=process.env.MEL_TEST_EXTENSION?path.resolve(process.env.MEL_TEST_EXTENSION):path.resolve(__dirname,'..'),seed=JSON.parse(fs.readFileSync(path.join(base,'data/seed.json'),'utf8'));
 const id='ta2-u8-x-exx-r',lesson=seed.lessons.find(l=>l.id===id),c=vm.createContext({});
 for(const f of ['rules','catalog','data'])vm.runInContext(fs.readFileSync(path.join(base,'lib',f+'.js'),'utf8'),c);
 const header={origin:'https://myenglishlab.pearson-intl.com',section:'',skill:'',exercise:'1',activityId:'2520708786'};
