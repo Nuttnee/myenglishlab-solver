@@ -1,3 +1,5 @@
+Đoạn văn nhiều ô không đánh số, Function 8.3 Ex 3: [kiểm thử](docs/verification-shopping-paragraph.md).
+
 Ô chữ toàn hàng ngang, Shopping 8.3 Ex 1: [kiểm thử](docs/verification-shopping-crossword.md).
 
 Chọn nhiều từ trong đoạn, Listening 8.2 Ex 6B: [kiểm thử](docs/verification-multiple-words.md).
