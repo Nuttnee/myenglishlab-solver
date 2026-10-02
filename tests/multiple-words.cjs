@@ -1,0 +1,28 @@
+// Real observed token group; surrounding fixed text restored from source/screenshot, click handler simulated.
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict');
+const {chromium}=require('playwright');
+const base=path.resolve(__dirname,'..'),seed=JSON.parse(fs.readFileSync(path.join(base,'data/seed.json'),'utf8'));
+const id='ta2-u8-8.2-ex6b',observed=require('./fixtures/multiple-words-observed.json');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+function renderRegion(r){const render=i=>{const n=r.nodes[i];if(n.tag==='#text')return esc(n.text)+' ';return `<${n.tag} class="${esc(n.classes)}" ${Object.entries(n.attributes||{}).map(([k,v])=>`${k}="${esc(v)}"`).join(' ')}>${r.nodes.map((x,j)=>x.parent===i?render(j):'').join('')}</${n.tag}>`;};return render(0);}
+function fixture(mode='normal'){return `<!doctype html><meta charset="utf-8"><h2>8.2 | Listening</h2><h3>Exercise 6B</h3><p>Listen to the story. Then find and select five mistakes in the summary below.</p><style>.itemContent{width:560px;line-height:1.8}.selected{text-decoration:underline}</style><ul><li class="item"><div class="itemContent multipleUnderline">Maggie and Joe Smith lived in the same house for <span class="example selected">fifteen</span> ${renderRegion(observed.regions[0])} should get all of the money.</div></li></ul><button>Save</button><button>Submit</button><script>window.ops=0;window.saved=0;window.model=[];document.querySelectorAll('button').forEach(el=>el.onclick=()=>saved++);document.querySelectorAll('[aria-pressed]').forEach(el=>el.onclick=()=>{ops++;if('${mode}'==='ignore')return;if('${mode}'==='single')el.parentElement.querySelectorAll('[aria-pressed]').forEach(x=>x.setAttribute('aria-pressed','false'));el.classList.toggle('selected');if('${mode}'!=='style-only')el.setAttribute('aria-pressed',el.getAttribute('aria-pressed')==='true'?'false':'true');if('${mode}'==='navigate')document.querySelector('h3').textContent='Exercise 6A';model=[...document.querySelectorAll('[aria-pressed=true]')].map(x=>x.textContent.trim());});</script>`;}
+(async()=>{
+ const profile=fs.mkdtempSync(path.join(os.tmpdir(),'mel-multiple-words-'));
+ const ctx=await chromium.launchPersistentContext(profile,{headless:true,...(process.env.MEL_TEST_BROWSER?{executablePath:process.env.MEL_TEST_BROWSER}:{}),args:[`--disable-extensions-except=${base}`,`--load-extension=${base}`]});let html,app;
+ try{
+  const worker=ctx.serviceWorkers()[0]||await ctx.waitForEvent('serviceworker');await worker.evaluate(data=>chrome.storage.local.set({melAnswerDataV11:data}),seed);
+  await ctx.route('https://**/*',r=>r.fulfill({contentType:'text/html',body:html}));const p=await ctx.newPage();
+  async function open(mode='normal'){html=fixture(mode);await p.goto('https://myenglishlab.pearson-intl.com/activities/2520700219/0/solve');await p.locator('mel-answer-root .bubble').click();await p.frameLocator('mel-answer-root iframe').locator('#lesson h2').waitFor();app=p.frames().find(f=>f.url().includes('popup.html?panel=1'));assert.equal(await app.evaluate(()=>state.lessonId),id);}
+  const solve=(onlyN='')=>app.evaluate(({id,onlyN})=>chrome.runtime.sendMessage({type:'MEL_AUTO_SOLVE',lessonId:id,onlyN}),{id,onlyN});
+  await open();assert.equal(await app.getByRole('button',{name:'Tự chọn các từ trong đoạn',exact:true}).count(),1);let r=await solve();assert.equal(r.done,3,JSON.stringify(r));assert.equal(r.skipped,1);assert(!r.error);assert.deepEqual(await p.evaluate(()=>model),['years','the garden','$15,000','Mr Jones']);assert.equal(await p.locator('.underlineElement').first().getAttribute('aria-pressed'),'false');assert.equal(await p.locator('.example').textContent(),'fifteen');assert.equal(await p.evaluate(()=>saved),0);
+  r=await solve();assert.equal(r.done,0);assert.equal(r.skipped,4);assert.equal(await p.evaluate(()=>ops),3);
+  console.log('PASS observed DOM: four correct targets, second years distinguished, preselected garden skipped, example retained, idempotence, no Save/Submit');
+  await open();r=await solve('5');assert.equal(r.done,1);assert.equal(await p.locator('[aria-pressed=true]').count(),2);assert.equal(await p.evaluate(()=>ops),1);
+  for(const mode of ['ignore','style-only','single','navigate']){await open(mode);r=await solve();assert.equal(r.done,0,mode+JSON.stringify(r));assert(r.error);assert.equal(await p.evaluate(()=>ops),1);}
+  console.log('PASS one-question selection; ignored click, style-only state, deselecting another token and navigation stop without false success');
+  await open();await p.locator('.underlineElement').first().evaluate(el=>el.setAttribute('aria-pressed','true'));r=await solve();assert.equal(r.done,0);assert(r.error);assert.equal(await p.evaluate(()=>ops),0);assert.equal(await p.locator('.underlineElement').first().getAttribute('aria-pressed'),'true');
+  await open();await p.locator('.item').evaluate(el=>el.after(el.cloneNode(true)));r=await solve();assert.equal(r.done,0);assert(r.error);assert.equal(await p.evaluate(()=>ops),0);
+  await open();await p.locator('h3').evaluate(el=>el.textContent='Exercise 6A');r=await solve();assert.equal(r.ok,false);assert.equal(await p.evaluate(()=>ops),0);
+  console.log('PASS unrelated existing selection preserved/reported, duplicate paragraphs and changed exercise refuse ambiguous selection');
+ }finally{await ctx.close();const relative=path.relative(os.tmpdir(),profile);assert(relative.startsWith('mel-multiple-words-')&&!relative.includes(path.sep));fs.rmSync(profile,{recursive:true,force:true});}
+})().catch(e=>{console.error(e);process.exitCode=1;});

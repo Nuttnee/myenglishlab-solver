@@ -1,0 +1,493 @@
+{
+  "provenance": "User diagnostic 1.13.2: 8.2 Listening Ex6B. Observed group starts at years and ends at Mr Jones; the garden has aria-pressed=true. Surrounding prefix and suffix are outside the exported minimal region.",
+  "regions": [
+    {
+      "ancestors": [
+        {
+          "classes": "itemContent multipleUnderline",
+          "tag": "DIV"
+        },
+        {
+          "classes": "item",
+          "tag": "LI"
+        }
+      ],
+      "context": "years . When Joe died, Maggie sold the house to David Jones . A few years later, Maggie heard someone say that Jones had found some money in her old house. Jones told her there was $10,000 in the wall. He offered her $5,000 . She agreed. A few days later, Jones asked Maggie to sign a contract that said she should accept $5,000 for any money found in the garden . She didn't sign it. Instead, she took Jones to court. In court, he told the truth: there wasn't $10,000 . There was $15,000 . Joe Smith, Maggie's husband , was putting money in the wall for fifty years and he never told his wife. In the end, the judge decided that Mr Jones",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup multiple",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "years"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". When Joe died, Maggie sold the house to"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "David"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 6,
+          "tag": "#text",
+          "text": "Jones"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". A few"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 9,
+          "tag": "#text",
+          "text": "years"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "later, Maggie heard someone say that Jones had found some"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 12,
+          "tag": "#text",
+          "text": "money"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "in her old house. Jones told her there was"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 15,
+          "tag": "#text",
+          "text": "$10,000"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "in the wall. He offered her"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 18,
+          "tag": "#text",
+          "text": "$5,000"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". She agreed. A few"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 21,
+          "tag": "#text",
+          "text": "days"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "later, Jones asked Maggie to sign a contract that said she should accept"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 24,
+          "tag": "#text",
+          "text": "$5,000"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "for any money found in"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "true",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement selected",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "underline"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 27,
+          "tag": "#text",
+          "text": "the garden"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". She didn't sign it. Instead, she took Jones to court. In court, he told the truth: there wasn't"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 30,
+          "tag": "#text",
+          "text": "$10,000"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". There was"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 33,
+          "tag": "#text",
+          "text": "$15,000"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ". Joe Smith, Maggie's"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 36,
+          "tag": "#text",
+          "text": "husband"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": ", was putting money in the wall for"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 39,
+          "tag": "#text",
+          "text": "fifty"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "years and he never told his wife. In the end, the judge decided that"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 42,
+          "tag": "#text",
+          "text": "Mr Jones"
+        }
+      ],
+      "truncated": false
+    }
+  ]
+}

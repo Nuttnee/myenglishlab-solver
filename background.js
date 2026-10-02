@@ -26,7 +26,7 @@ async function frames(tabId) {
 }
 async function ensure(tabId) {
   const list = await frames(tabId);
-  const results = await Promise.allSettled(list.map(f => chrome.scripting.executeScript({target:{tabId,frameIds:[f.frameId]},files:['lib/rules.js','lib/context.js','lib/letters.js','lib/crossword.js','lib/insert-word.js','lib/page.js','content.js']})));
+  const results = await Promise.allSettled(list.map(f => chrome.scripting.executeScript({target:{tabId,frameIds:[f.frameId]},files:['lib/rules.js','lib/context.js','lib/letters.js','lib/crossword.js','lib/insert-word.js','lib/multiple-words.js','lib/page.js','content.js']})));
   const ready = list.filter((_,i) => results[i].status === 'fulfilled');
   if (!ready.length) throw new Error('Không truy cập được nội dung bài. Tải lại trang MyEnglishLab sau khi cài extension.');
   return ready;
@@ -141,6 +141,12 @@ async function handle(msg,sender) {
       const selected=msg.manualFrames?.find(p=>p.frameId===f.frameId && p.url===f.page.url && p.section===f.page.section && p.exercise===f.page.exercise);
       return Boolean(selected && (!lesson.section||!f.page.section||lesson.section===f.page.section) && (!lesson.exercise||!f.page.exercise||MEL.norm(lesson.exercise)===MEL.norm(f.page.exercise)));
     });
+    const multipleWords=matching.filter(f=>f.page.multipleWords);
+    if(multipleWords.length){
+      if(multipleWords.length!==1)throw new Error('Có nhiều khung chọn từ cùng khớp. Chỉ để một bài đang mở.');
+      const result=await run(tab.id,multipleWords[0].frameId,'multipleWordFill',[lesson,msg.onlyN||'']);
+      return {tabId:tab.id,fallback:false,...result,message:`Đã chọn ${result.done} từ/cụm từ; ${result.skipped} đáp án đã được chọn. ${result.error||'Đã kiểm tra trạng thái chọn; chưa xác nhận Pearson đã lưu.'}`};
+    }
     const insertions=matching.filter(f=>f.page.insertWords);
     if(insertions.length){
       if(insertions.length!==1)throw new Error('Có nhiều khung bài chèn từ cùng khớp. Chỉ để một bài đang mở.');

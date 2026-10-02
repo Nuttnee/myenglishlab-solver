@@ -1,5 +1,7 @@
 # Chẩn đoán chọn nhiều từ sai trong đoạn văn
 
+Đây là báo cáo lịch sử bản 1.13.2. Bản hiện tại đã có [adapter chọn nhiều từ từ JSON mới](verification-multiple-words.md).
+
 Ngày: 2026-10-02. Manifest nội bộ: 1.13.2.
 
 Ảnh: 8.2 Listening Exercise 6B, Activity 2520700219. Kho có đúng bài `ta2-u8-8.2-ex6b`. JSON người dùng bản 1.13.1 trả về fields, structure và questionWidgets.regions đều rỗng. Không có bằng chứng DOM để xác định selector hoặc trạng thái chọn; bản này **chưa bổ sung adapter tự chọn**.

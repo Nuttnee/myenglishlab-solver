@@ -1,4 +1,6 @@
-Chẩn đoán đoạn văn chọn từ sai Ex 6B, chưa có adapter thao tác: [kiểm thử](docs/verification-passage-widgets.md).
+Chọn nhiều từ trong đoạn, Listening 8.2 Ex 6B: [kiểm thử](docs/verification-multiple-words.md).
+
+Lịch sử bổ sung chẩn đoán đoạn văn: [báo cáo](docs/verification-passage-widgets.md).
 
 Nhận và điền bài mẫu Writing 8.2 Ex 3B: [kiểm thử](docs/verification-writing-advert.md).
 
