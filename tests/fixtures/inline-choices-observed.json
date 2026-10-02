@@ -1,0 +1,1387 @@
+{
+  "source": "User diagnostic 1.11.9; questionWidgets only, no URL/account metadata",
+  "regions": [
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "1 That's the woman who / where works in the supermarket.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "1"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "That's the woman"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single example",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(136, 136, 136)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineElement selected",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(136, 136, 136)",
+            "cursor": "default",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "underline"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(136, 136, 136)",
+            "cursor": "default",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "works in the supermarket."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "2 Hamburg is the city who / where Lidia went to university.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "2"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Hamburg is the city"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Lidia went to university."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "3 Is that the cake that / who you made for Claire’s birthday?",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "3"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Is that the cake"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "that"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "you made for Claire’s birthday?"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "4 Did you take the money where / that was on the table?",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "4"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Did you take the money"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "that"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "was on the table?"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "5 The hotel where / which we stayed on holiday was terrible.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "5"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "The hotel"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "which"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "we stayed on holiday was terrible."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "6 Have you seen that video of the man which / who can eat metal?",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "6"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Have you seen that video of the man"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "which"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "can eat metal?"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "7 Did you get the message who / which I sent you last night?",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "7"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Did you get the message"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "which"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "I sent you last night?"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "8 Helen is the only person I know where / that hates pizza.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "8"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Helen is the only person I know"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "that"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "hates pizza."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "9 That’s the bar which / where Tina met Dan.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "9"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "That’s the bar"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "which"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "where"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "Tina met Dan."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "item",
+          "tag": "LI"
+        },
+        {
+          "classes": "taskItems",
+          "tag": "UL"
+        }
+      ],
+      "context": "10 I don’t like films which / who make me cry.",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemContent singleUnderline",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "itemNumber",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "700",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "10"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "I don’t like films"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "underlineGroup single",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "which"
+        },
+        {
+          "parent": 4,
+          "tag": "#text",
+          "text": "/"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "aria-pressed": "false",
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "underlineElement",
+          "parent": 4,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "pointer",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 8,
+          "tag": "#text",
+          "text": "who"
+        },
+        {
+          "parent": 0,
+          "tag": "#text",
+          "text": "make me cry."
+        }
+      ],
+      "truncated": false
+    }
+  ]
+}

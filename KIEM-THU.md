@@ -1,4 +1,6 @@
-Chẩn đoán điều khiển chưa nhận diện — chưa tự chọn từ được ở 8.1 Ex 3: [tình trạng](docs/verification-unknown-widgets.md).
+Tự chọn từ 8.1 Ex 3 từ cấu trúc chẩn đoán thật: [kiểm thử](docs/verification-inline-choices.md).
+
+Lịch sử bổ sung chẩn đoán điều khiển chưa nhận diện: [báo cáo cũ](docs/verification-unknown-widgets.md).
 
 Kiểm thử nhận bài Changes Ex 3 từ nhóm lựa chọn trong ngoặc: [báo cáo](docs/verification-video-choices.md).
 

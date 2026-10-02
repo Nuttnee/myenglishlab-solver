@@ -10,7 +10,7 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 
 ## Từ bấm trực tiếp trong câu
 
-Với widget chưa nhận diện như **8.1 Grammar: relative clauses · Ex 3**, bản hiện tại đã bổ sung chẩn đoán cây điều khiển ngay cả khi không tìm thấy input/radio. Bấm một từ trên trang rồi **Xuất chẩn đoán** để thu trạng thái đã chọn. Chưa tự chọn được widget này; xem [tình trạng và kiểm thử](docs/verification-unknown-widgets.md).
+**8.1 Grammar: relative clauses · Ex 3**: bấm **Tự chọn từ cả bài**. Nhận nhóm chọn một từ, ghép theo nội dung câu, giữ ví dụ và kiểm tra trạng thái nhấn sau mỗi lần bấm. Quy tắc áp dụng cho các bài cùng cấu trúc điều khiển; xem [kiểm thử chọn từ](docs/verification-inline-choices.md). Chẩn đoán cây câu hỏi vẫn hỗ trợ điều tra những widget khác chưa nhận diện.
 
 ## Nhận bài chọn câu từ video
 

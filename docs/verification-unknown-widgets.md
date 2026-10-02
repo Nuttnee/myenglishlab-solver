@@ -1,5 +1,7 @@
 # Chẩn đoán điều khiển chưa được hỗ trợ
 
+**Cập nhật:** sau khi nhận JSON mới, đã bổ sung bộ xử lý chọn một từ. Xem [kiểm thử hiện tại](verification-inline-choices.md). Nội dung bên dưới ghi lại tình trạng trước khi có cấu trúc thật.
+
 2026-10-02. Bài người dùng: 8.1 Grammar: relative clauses, Exercise 3.
 
 JSON người dùng gửi (bản 1.11.8) có `controls.fields=[]`, `controls.structure=[]`, danh sách kéo/thả và nối cặp đều rỗng. Ảnh cho thấy từ bấm trực tiếp trong câu, nhưng không cho biết phần tử HTML hay thuộc tính/trạng thái được cập nhật sau khi bấm. Báo cáo khảo sát cũ cũng chỉ xác định dạng qua ảnh, không có DOM của widget này. Kết nối trình duyệt hiện tại không có tab Pearson.
