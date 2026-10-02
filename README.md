@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Writing: nhập số thứ tự từng câu
+
+**7.1 · Writing: paragraphs · Ex 8** dùng nút **Tự điền số thứ tự** khi trang có ô nhập. Ghép câu theo nội dung và điền số của từng đoạn; giữ phần ví dụ. Không kéo các câu khi trang yêu cầu nhập số. Xem [kiểm thử Writing Ex 8](docs/verification-paragraph-ranks.md).
+
 ## Reading: kéo nhãn đoạn văn vào hình
 
 Đã xác minh nhận **7.1 · Reading · Ex 6** (BEFORE THEY WERE FAMOUS). Bấm **Tự làm cả bài** để kéo năm nhãn, giữ ví dụ B → Paragraph 1. Dùng cơ chế kéo nhãn chung; không đoán đáp án theo thứ tự thẻ trong khay. Xem [kiểm thử Reading Ex 6](docs/verification-reading-pictures.md).

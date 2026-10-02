@@ -1,3 +1,5 @@
+Kiểm thử Writing 7.1 Ex 8: [báo cáo](docs/verification-paragraph-ranks.md).
+
 Kiểm thử Reading 7.1 Ex 6: [báo cáo](docs/verification-reading-pictures.md).
 
 Kiểm thử nhận bài nghe dưới tiêu đề Grammar: [báo cáo](docs/verification-header-skill.md).
