@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Nhận bài chọn câu từ video
+
+**Unit 7 · Changes · Ex 3**: bấm **Tự tích đáp án cả bài** để chọn năm câu, giữ ví dụ. Quy tắc chung nhận các bài có nguồn ghi lựa chọn trong ngoặc bằng cách so cả nhóm lựa chọn trên trang; không cần mở từng bài để liên kết ID trước. Xem [kiểm thử nhận bài chọn câu](docs/verification-video-choices.md).
+
 ## Kéo từ trong nhiều hội thoại
 
 **7.3 · Function: finding out information · Ex 2**: phân biệt các câu ngắn lặp lại bằng nhãn Conversation và câu thoại liền trước. Bấm **Tự kéo thả cả bài** để làm tiếp các ô còn trống, giữ các đáp án đã đặt đúng. Xem [kiểm thử hội thoại](docs/verification-dialogue-blanks.md).

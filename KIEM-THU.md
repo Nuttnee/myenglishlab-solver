@@ -1,3 +1,5 @@
+Kiểm thử nhận bài Changes Ex 3 từ nhóm lựa chọn trong ngoặc: [báo cáo](docs/verification-video-choices.md).
+
 Kiểm thử hội thoại 7.3 Ex 2, câu ngắn lặp lại và tiếp tục bài đang điền dở: [báo cáo](docs/verification-dialogue-blanks.md).
 
 Kiểm thử kéo từ 7.2 Ex 4 và quy tắc nhiều ô trong một đoạn: [báo cáo](docs/verification-inline-blanks.md).
