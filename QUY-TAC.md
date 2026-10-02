@@ -106,3 +106,7 @@ Ghép theo số trong mã ô, không theo vị trí DOM hoặc thứ tự ô cò
 ## Tiêu đề bài ôn tập
 
 Nhận R1/R2/R3 hoặc Review N bên cạnh tên chủ đề; chuẩn hóa khoảng trắng và hoa/thường. Không lấy R2 nằm trong một câu văn làm section. Khi cùng trang có nhiều mã section mâu thuẫn, dừng nhận và không cho chạy qua lựa chọn thủ công. Không thay đổi kho đáp án để khắc phục lỗi đọc tiêu đề.
+
+## Chủ đề header và kỹ năng
+
+Nhóm chủ đề rõ ràng trong sectionTitle được dùng để đối chiếu header trước skill. Skill vẫn mô tả bài nghe/đọc/ngữ pháp trong kho. Mã activity không được vượt qua mâu thuẫn section/exercise/header. Catalog chỉ bổ sung thông tin đã xác minh, giữ nguyên đáp án và metadata người dùng đã sửa khác; bỏ dấu suy đoán ở trường đã xác minh.

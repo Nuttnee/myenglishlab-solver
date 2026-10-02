@@ -1,3 +1,5 @@
+Kiểm thử nhận bài nghe dưới tiêu đề Grammar: [báo cáo](docs/verification-header-skill.md).
+
 Kiểm thử cập nhật 2026-10-02: [Nhận bài ôn tập và giao diện](docs/verification-review.md).
 
 Bản hiện tại: **1.11.0**. Xem [KIEM-THU-1.11.0.md](KIEM-THU-1.11.0.md).

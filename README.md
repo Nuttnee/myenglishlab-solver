@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Bài nghe trong mục Grammar
+
+Đối chiếu nhóm chủ đề ở tiêu đề độc lập với nhãn kỹ năng của bài. Ví dụ **7.1 · Grammar: used to · Ex 5A** là bài nghe điền từ, nên vẫn giữ nhãn listening trong kho nhưng nhận theo tiêu đề Grammar. Mở bài rồi bấm **Tự điền cả bài**; giữ câu ví dụ, chỉ làm phần đang mở. Xem [kiểm thử nhận tiêu đề](docs/verification-header-skill.md).
+
 ## Nhận bài ôn tập
 
 Nhận mã `R1`, `R2`, `R3` hoặc `Review N` ở tiêu đề, kể cả mã và chủ đề nằm trong các ô bảng riêng. R2 · Function: asking for and giving directions · Exercise 6 đã có sẵn trong kho; extension nhận bằng tiêu đề và kéo sáu cụm từ theo câu, giữ ví dụ. Không cần liên kết Activity ID riêng cho bài này.
