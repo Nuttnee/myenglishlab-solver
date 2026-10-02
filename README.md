@@ -1,47 +1,57 @@
 <div align="center">
 
-# MyEnglishLab Solver
+# 📚 MyEnglishLab Solver
 
 Tra cứu đáp án · Nhận diện bài · Hỗ trợ thao tác trên MyEnglishLab
 
-**Chrome & Edge** · Manifest V3 · Giao diện tiếng Việt
+[![Release](https://img.shields.io/github/v/release/Nuttnee/myenglishlab-solver?style=for-the-badge&label=RELEASE&color=176b5b)](https://github.com/Nuttnee/myenglishlab-solver/releases/latest)
+![Chrome & Edge](https://img.shields.io/badge/Chrome_%26_Edge-2563eb?style=for-the-badge)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-8b5cf6?style=for-the-badge)
+![Tiếng Việt](https://img.shields.io/badge/Giao_diện-Tiếng_Việt-f59e0b?style=for-the-badge)
 
-[Tải bản cài mới nhất](https://github.com/Nuttnee/myenglishlab-solver/releases/latest) · [Hướng dẫn sử dụng](docs/usage.md) · [Tài liệu kỹ thuật](docs/README.md)
+### Tìm đúng bài. Chọn thao tác. Kiểm tra kết quả.
+
+**📖 310 bài trong kho &nbsp; · &nbsp; 🗂️ Unit 1–10 &nbsp; · &nbsp; 🇻🇳 Hướng dẫn tiếng Việt**
+
+[![Tải bản cài mới nhất](https://img.shields.io/badge/⬇_TẢI_BẢN_CÀI_MỚI_NHẤT-176b5b?style=for-the-badge)](https://github.com/Nuttnee/myenglishlab-solver/releases/latest)
+
+[🚀 Cài đặt](#-bắt-đầu-trong-3-bước) &nbsp; · &nbsp; [📘 Cách dùng](docs/usage.md) &nbsp; · &nbsp; [🛠️ Tài liệu kỹ thuật](docs/README.md)
 
 </div>
 
 ---
 
-## Bắt đầu trong 3 bước
+## 🚀 Bắt đầu trong 3 bước
 
 1. Vào **[Releases](https://github.com/Nuttnee/myenglishlab-solver/releases/latest)** và tải **myenglishlab-solver.zip** trong mục Assets.
 2. Giải nén → mở `chrome://extensions` hoặc `edge://extensions` → bật **Developer mode** → **Load unpacked** → chọn thư mục chứa `manifest.json`.
 3. Mở bài MyEnglishLab, bấm **EN** hoặc **Alt+Shift+M**, kiểm tra bài được nhận rồi chọn nút tự làm phù hợp.
 
-**Đang dùng bản cũ?** Chép bản mới vào đúng thư mục extension đã nạp, bấm **Reload** rồi **F5** trang bài. Giữ nguyên thư mục để giữ kho đã lưu; xuất kho JSON trước nếu cần chuyển thư mục.
+> [!TIP]
+> **Đang dùng bản cũ?** Chép bản mới vào đúng thư mục extension đã nạp, bấm **Reload** rồi **F5** trang bài. Giữ nguyên thư mục để giữ kho đã lưu; xuất kho JSON trước nếu cần chuyển thư mục.
 
-## Có gì trong extension?
+## ✨ Có gì trong extension?
 
 | Chức năng | Hỗ trợ |
 | --- | --- |
-| Kho đáp án | 310 bài, tìm theo khóa học, Unit và dạng bài; nhập/xuất JSON |
-| Nhận bài đang mở | Đối chiếu tiêu đề, nội dung và liên kết đã xác minh |
-| Điền và chọn | Ô nhập, ô chữ, lựa chọn, từ bấm trong câu và ô hiện khi rê chuột |
-| Kéo thả và sắp xếp | Kéo từ, ghép nhãn với hình, xếp từ/câu và nối cặp theo cấu trúc được hỗ trợ |
-| Khi chưa nhận được | Chọn bài thủ công, kiểm tra ghép ô hoặc xuất chẩn đoán |
+| 📚 **Kho đáp án** | 310 bài, tìm theo khóa học, Unit và dạng bài; nhập/xuất JSON |
+| 🔎 **Nhận bài đang mở** | Đối chiếu tiêu đề, nội dung và liên kết đã xác minh |
+| ✍️ **Điền và chọn** | Ô nhập, ô chữ, lựa chọn, từ bấm trong câu và ô hiện khi rê chuột |
+| 🧩 **Kéo thả và sắp xếp** | Kéo từ, ghép nhãn với hình, xếp từ/câu và nối cặp theo cấu trúc được hỗ trợ |
+| 🩺 **Khi chưa nhận được** | Chọn bài thủ công, kiểm tra ghép ô hoặc xuất chẩn đoán |
 
 Extension giữ các ví dụ có sẵn và báo những câu chưa ghép được. **Bạn kiểm tra kết quả và tự bấm Save/Submit.** Không phải mọi widget Pearson đều được hỗ trợ; số bài trong kho không phải số bài đã kiểm thử trực tiếp.
 
-## Tài liệu
+## 📘 Tài liệu
 
-- **[Cách dùng & xử lý sự cố](docs/usage.md)** — cài đặt, cập nhật, chọn bài và gửi chẩn đoán.
-- **[Kiểm thử & cấu trúc mã](docs/README.md)** — báo cáo theo tính năng và cách đóng gói.
-- **[Ghi chú phát hành](docs/releases/v1.14.6.md)** — thay đổi trong bản mới nhất.
+- 🚀 **[Cách dùng & xử lý sự cố](docs/usage.md)** — cài đặt, cập nhật, chọn bài và gửi chẩn đoán.
+- 🧪 **[Kiểm thử & cấu trúc mã](docs/README.md)** — báo cáo theo tính năng và cách đóng gói.
+- 📦 **[Ghi chú phát hành](docs/releases/v1.14.6.md)** — thay đổi trong bản mới nhất.
 
-## Dành cho phát triển
+## 🛠️ Dành cho phát triển
 
 ```text
-lib/       Nhận diện, ghép đáp án và thao tác trên trang
+lib/      Nhận diện, ghép đáp án và thao tác trên trang
 data/     Kho đáp án nguồn
 tests/    Kiểm thử và dữ liệu tái hiện
 docs/     Hướng dẫn, báo cáo và lịch sử
