@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Chẩn đoán bài chọn từ sai trong đoạn văn
+
+**8.2 · Listening · Ex 6B** đã nhận đúng bài, nhưng chưa hỗ trợ tự chọn từ sai. Bản xuất chẩn đoán mới bỏ chú thích chỉ có trong kho khi tìm câu và thu được đoạn văn dài cùng trạng thái các từ. Bấm thử `years` trong “A few years later” rồi **Xuất chẩn đoán** để đối chiếu cấu trúc đã chọn. Xem [kiểm thử chẩn đoán đoạn văn](docs/verification-passage-widgets.md).
+
 ## Writing: mô tả sản phẩm
 
 **8.2 · Writing · Ex 3B**: đã liên kết bài có hình laptop, xe đạp và máy ảnh với bài mẫu quảng cáo máy ảnh trong kho. Bấm **Tự điền cả bài** để điền bài mẫu 62 từ vào ô viết duy nhất. Đây là bài mẫu trong nguồn; bạn có thể chỉnh sửa trước khi tự nộp. Xem [kiểm thử Writing Ex 3B](docs/verification-writing-advert.md).

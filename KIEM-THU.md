@@ -1,3 +1,5 @@
+Chẩn đoán đoạn văn chọn từ sai Ex 6B, chưa có adapter thao tác: [kiểm thử](docs/verification-passage-widgets.md).
+
 Nhận và điền bài mẫu Writing 8.2 Ex 3B: [kiểm thử](docs/verification-writing-advert.md).
 
 Chèn từ vào ô hiện khi rê chuột, Writing 8.2 Ex 3A: [kiểm thử](docs/verification-insert-word.md).
