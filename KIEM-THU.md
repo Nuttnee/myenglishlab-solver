@@ -1,3 +1,5 @@
+Nhận và điền bài mẫu Writing 8.2 Ex 3B: [kiểm thử](docs/verification-writing-advert.md).
+
 Chèn từ vào ô hiện khi rê chuột, Writing 8.2 Ex 3A: [kiểm thử](docs/verification-insert-word.md).
 
 Nhận và chọn đáp án Reading 8.1 Ex 6A: [kiểm thử](docs/verification-single-reading-choice.md).

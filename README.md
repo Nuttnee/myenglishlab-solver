@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Writing: mô tả sản phẩm
+
+**8.2 · Writing · Ex 3B**: đã liên kết bài có hình laptop, xe đạp và máy ảnh với bài mẫu quảng cáo máy ảnh trong kho. Bấm **Tự điền cả bài** để điền bài mẫu 62 từ vào ô viết duy nhất. Đây là bài mẫu trong nguồn; bạn có thể chỉnh sửa trước khi tự nộp. Xem [kiểm thử Writing Ex 3B](docs/verification-writing-advert.md).
+
 ## Chèn từ vào câu bằng ô hiện khi rê chuột
 
 **8.2 · Writing · Ex 3A**: dùng **Tự chèn từ đúng vị trí**. Extension ghép nguyên câu và khoảng trống trong kho, hiện ô nhập ở vị trí tương ứng rồi nhập từ. Giữ ví dụ, từ đã đúng và nội dung cũ ở vị trí khác. Quy tắc dùng chung cho widget `insertAWord`, không dựa vào số thứ tự câu. Nếu trang không hiện ô sau thao tác, extension dừng và báo câu cần kiểm tra. Xem [kiểm thử chèn từ](docs/verification-insert-word.md).
