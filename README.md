@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Kéo từ vào nhiều ô trong một đoạn
+
+**7.2 · Grammar: purpose, cause and result · Ex 4**: bấm **Tự kéo thả cả bài**. Quy tắc chung ghép theo câu quanh ô, phân biệt số đoạn với số ô và chọn đúng chữ hoa/thường giữa các thẻ lặp như `so` / `So`, `to` / `To`. Giữ ví dụ và ô đã có nội dung khác. Xem [kiểm thử kéo từ inline](docs/verification-inline-blanks.md).
+
 ## Writing: nhập số thứ tự từng câu
 
 **7.1 · Writing: paragraphs · Ex 8** dùng nút **Tự điền số thứ tự** khi trang có ô nhập. Ghép câu theo nội dung từng dòng và điền số của từng đoạn; giữ phần ví dụ. Hỗ trợ nhiều ô trong cùng khối HTML, ngăn bằng BR như Pearson; không buộc người dùng chọn ô từng câu. Không kéo các câu khi trang yêu cầu nhập số. Xem [kiểm thử Writing Ex 8](docs/verification-paragraph-ranks.md).

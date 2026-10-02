@@ -1,3 +1,5 @@
+Kiểm thử kéo từ 7.2 Ex 4 và quy tắc nhiều ô trong một đoạn: [báo cáo](docs/verification-inline-blanks.md).
+
 Kiểm thử Writing 7.1 Ex 8: [báo cáo](docs/verification-paragraph-ranks.md).
 
 Kiểm thử Reading 7.1 Ex 6: [báo cáo](docs/verification-reading-pictures.md).
