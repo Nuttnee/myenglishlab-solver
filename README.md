@@ -10,7 +10,7 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 
 ## Writing: nhập số thứ tự từng câu
 
-**7.1 · Writing: paragraphs · Ex 8** dùng nút **Tự điền số thứ tự** khi trang có ô nhập. Ghép câu theo nội dung và điền số của từng đoạn; giữ phần ví dụ. Không kéo các câu khi trang yêu cầu nhập số. Xem [kiểm thử Writing Ex 8](docs/verification-paragraph-ranks.md).
+**7.1 · Writing: paragraphs · Ex 8** dùng nút **Tự điền số thứ tự** khi trang có ô nhập. Ghép câu theo nội dung từng dòng và điền số của từng đoạn; giữ phần ví dụ. Hỗ trợ nhiều ô trong cùng khối HTML, ngăn bằng BR như Pearson; không buộc người dùng chọn ô từng câu. Không kéo các câu khi trang yêu cầu nhập số. Xem [kiểm thử Writing Ex 8](docs/verification-paragraph-ranks.md).
 
 ## Reading: kéo nhãn đoạn văn vào hình
 

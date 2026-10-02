@@ -1,0 +1,460 @@
+{
+  "source": "User diagnostic: 7.1 Writing paragraphs Ex8, extension 1.11.4. Only field descriptions and structural evidence retained.",
+  "fields": [
+    {
+      "context": "What exactly do you want to change in your life? Writing down your goals is the first step towards achieving them. Decide on some new goals to help you achieve this change and write them down.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 1",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "0",
+      "slot": 0,
+      "slotCount": 3
+    },
+    {
+      "context": "What exactly do you want to change in your life? Writing down your goals is the first step towards achieving them. Decide on some new goals to help you achieve this change and write them down.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 2",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "1",
+      "slot": 1,
+      "slotCount": 3
+    },
+    {
+      "context": "What exactly do you want to change in your life? Writing down your goals is the first step towards achieving them. Decide on some new goals to help you achieve this change and write them down.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 3",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "2",
+      "slot": 2,
+      "slotCount": 3
+    },
+    {
+      "context": "Try not doing something for a while – like not watching television for one week. This will give you time to try doing something different. Do you spend a lot of your time doing the same things every day?",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 4",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "3",
+      "slot": 0,
+      "slotCount": 3
+    },
+    {
+      "context": "Try not doing something for a while – like not watching television for one week. This will give you time to try doing something different. Do you spend a lot of your time doing the same things every day?",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 5",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "4",
+      "slot": 1,
+      "slotCount": 3
+    },
+    {
+      "context": "Try not doing something for a while – like not watching television for one week. This will give you time to try doing something different. Do you spend a lot of your time doing the same things every day?",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 6",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "5",
+      "slot": 2,
+      "slotCount": 3
+    },
+    {
+      "context": "If you try to focus on the present, things will seem easier. And don't worry about things which haven't happened yet. Don't spend too much time thinking about the past and worrying about decisions you have already made.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 7",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "6",
+      "slot": 0,
+      "slotCount": 3
+    },
+    {
+      "context": "If you try to focus on the present, things will seem easier. And don't worry about things which haven't happened yet. Don't spend too much time thinking about the past and worrying about decisions you have already made.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 8",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "7",
+      "slot": 1,
+      "slotCount": 3
+    },
+    {
+      "context": "If you try to focus on the present, things will seem easier. And don't worry about things which haven't happened yet. Don't spend too much time thinking about the past and worrying about decisions you have already made.",
+      "current": "",
+      "isExample": false,
+      "kind": "text",
+      "label": "Ô 9",
+      "maxLength": 1,
+      "options": [],
+      "questionNumber": "",
+      "ref": "8",
+      "slot": 2,
+      "slotCount": 3
+    }
+  ],
+  "structure": [
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent hangman",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent hangman",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent hangman",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "BR",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "hangmanGroup",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "SPAN",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ]
+  ]
+}

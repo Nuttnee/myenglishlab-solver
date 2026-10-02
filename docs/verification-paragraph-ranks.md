@@ -18,8 +18,18 @@ Trang có ô nhập thì nút chính hiện **Tự điền số thứ tự**. C�
 - Tự làm riêng một câu; câu trùng mơ hồ không được điền; đổi Exercise 9 thì từ chối đáp án Ex 8.
 - Hồi quy `tests/header-skill.cjs`: Grammar Ex 5A, skill khác header, kho cũ, không dùng nhầm đáp án sau khi chuyển phần: đạt.
 
+## Sửa theo chẩn đoán DOM thực tế
+
+JSON người dùng gửi sau bản trước xác nhận chín input text maxlength=1. Mỗi ba input nằm trong cùng `li.item > .itemContent.hangman`, từng ô được bọc bởi `span.hangmanGroup` và các câu phân cách bằng BR. Bản trước lấy context ở LI, nên ba input có cùng context toàn đoạn và không ghép được ô nào. Fixture cũ dùng một P cho mỗi câu nên đã không tái hiện lỗi này.
+
+Bổ sung lineContext đọc text node, giữ span inline và tách tại BR hoặc phần tử block. Chỉ dùng dòng có đúng một control; không tách nhiều ô cùng dòng bằng vị trí suy đoán. Bài nhập số xếp câu ghép theo lineContext và không dùng fallback thứ tự giữa các mốc. Ngữ cảnh đoạn và slotCount vẫn giữ lại cho dạng bài khác. Chẩn đoán mới xuất thêm lineContext để thấy câu mà từng ô được ghép.
+
+Fixture `tests/fixtures/paragraph-ranks-observed.json` lưu field context/structure từ file người dùng, không lưu URL phiên hoặc dữ liệu tài khoản. Test xác nhận kế hoạch cũ với context cả đoạn có 0 thao tác; DOM LI/SPAN/BR tạo lại có cùng ba context đoạn như JSON nhưng chín lineContext riêng. Tự điền đúng chín ô, đảo thứ tự các dòng BR vẫn đúng. Nếu bỏ BR ở đoạn giữa thì giữ ba ô mơ hồ chưa điền dù có các đoạn đã ghép ở hai bên. Các ví dụ cố định vẫn được giữ nguyên.
+
+Hồi quy điền chữ `work/test-letters.cjs`: 13 đáp án với chữ gợi ý và các biến thể maxLength/readonly/ô cố định, chọn từ, hủy, từ chối sai mẫu: đạt. Hồi quy `work/test-general-routing.cjs`: matching, dropdown, checkbox và phân loại: đạt.
+
 ## Giới hạn
 
-Ảnh không cho biết loại DOM chính xác của ô vuông. Test dùng các loại input/select thông thường và handler mô phỏng, chưa thao tác phiên Pearson thật. Nếu các ô thực tế là widget riêng thì cần file chẩn đoán để bổ sung adapter. Việc nhận metadata được đối chiếu ảnh; không khẳng định Pearson đã lưu/chấm.
+Đã có cấu trúc DOM từ chẩn đoán và đã tái hiện trường hợp lỗi. Handler ghi nhận input trong test vẫn là mô phỏng; chưa thao tác phiên Pearson thật, không khẳng định Pearson đã lưu/chấm.
 
 Seed SHA256 không đổi: `61B2055541C16D1C6E59F3837E78CC199B013FD5C652B3B256871DF919D55021`.

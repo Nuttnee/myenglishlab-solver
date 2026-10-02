@@ -110,3 +110,7 @@ Nhận R1/R2/R3 hoặc Review N bên cạnh tên chủ đề; chuẩn hóa kho�
 ## Chủ đề header và kỹ năng
 
 Nhóm chủ đề rõ ràng trong sectionTitle được dùng để đối chiếu header trước skill. Skill vẫn mô tả bài nghe/đọc/ngữ pháp trong kho. Mã activity không được vượt qua mâu thuẫn section/exercise/header. Catalog chỉ bổ sung thông tin đã xác minh, giữ nguyên đáp án và metadata người dùng đã sửa khác; bỏ dấu suy đoán ở trường đã xác minh.
+
+## Dòng câu chứa ô nhập số
+
+Khi xếp thứ tự bằng số, lấy lineContext từ dòng có đúng một control, tách bằng BR hoặc khối HTML, giữ span inline. Không dùng ngữ cảnh chung của cả đoạn để suy vị trí; không nội suy theo thứ tự ô cho câu chưa ghép chắc chắn. Vẫn giữ context/slot của đoạn cho các bài điền chỗ trống khác.
