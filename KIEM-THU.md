@@ -1,3 +1,5 @@
+Nhận và chọn đáp án Reading 8.1 Ex 6A: [kiểm thử](docs/verification-single-reading-choice.md).
+
 Tự chọn từ 8.1 Ex 3 từ cấu trúc chẩn đoán thật: [kiểm thử](docs/verification-inline-choices.md).
 
 Lịch sử bổ sung chẩn đoán điều khiển chưa nhận diện: [báo cáo cũ](docs/verification-unknown-widgets.md).

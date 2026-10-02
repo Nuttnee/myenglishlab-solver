@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Reading: một câu chọn đáp án
+
+**8.1 · Reading · Ex 6A — The Real Money Makers**: đã bổ sung section, số bài và Activity ID từ ảnh đối chiếu với kho. Bấm **Tự tích đáp án cả bài** để chọn **food**. Bài chỉ có một nhóm lựa chọn ngắn được nhận bằng tiêu đề hoặc liên kết đã xác minh; không đoán danh tính từ riêng bốn từ lựa chọn. Xem [kiểm thử Reading Ex 6A](docs/verification-single-reading-choice.md).
+
 ## Từ bấm trực tiếp trong câu
 
 **8.1 Grammar: relative clauses · Ex 3**: bấm **Tự chọn từ cả bài**. Nhận nhóm chọn một từ, ghép theo nội dung câu, giữ ví dụ và kiểm tra trạng thái nhấn sau mỗi lần bấm. Quy tắc áp dụng cho các bài cùng cấu trúc điều khiển; xem [kiểm thử chọn từ](docs/verification-inline-choices.md). Chẩn đoán cây câu hỏi vẫn hỗ trợ điều tra những widget khác chưa nhận diện.
