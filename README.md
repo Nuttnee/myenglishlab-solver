@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Reading: kéo nhãn đoạn văn vào hình
+
+Đã xác minh nhận **7.1 · Reading · Ex 6** (BEFORE THEY WERE FAMOUS). Bấm **Tự làm cả bài** để kéo năm nhãn, giữ ví dụ B → Paragraph 1. Dùng cơ chế kéo nhãn chung; không đoán đáp án theo thứ tự thẻ trong khay. Xem [kiểm thử Reading Ex 6](docs/verification-reading-pictures.md).
+
 ## Bài nghe trong mục Grammar
 
 Đối chiếu nhóm chủ đề ở tiêu đề độc lập với nhãn kỹ năng của bài. Ví dụ **7.1 · Grammar: used to · Ex 5A** là bài nghe điền từ, nên vẫn giữ nhãn listening trong kho nhưng nhận theo tiêu đề Grammar. Mở bài rồi bấm **Tự điền cả bài**; giữ câu ví dụ, chỉ làm phần đang mở. Xem [kiểm thử nhận tiêu đề](docs/verification-header-skill.md).

@@ -1,3 +1,5 @@
+Kiểm thử Reading 7.1 Ex 6: [báo cáo](docs/verification-reading-pictures.md).
+
 Kiểm thử nhận bài nghe dưới tiêu đề Grammar: [báo cáo](docs/verification-header-skill.md).
 
 Kiểm thử cập nhật 2026-10-02: [Nhận bài ôn tập và giao diện](docs/verification-review.md).
