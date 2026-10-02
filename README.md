@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Ghép hội thoại vào hình
+
+**8.3 · Listening · Ex 5A**: đã liên kết bài và đối chiếu vị trí bốn hình. Bấm **Tự làm cả bài**: trên trái Conversation 3, trên phải Conversation 4, dưới phải Conversation 2; giữ Conversation 1 ví dụ ở dưới trái. Số câu trong nguồn là số hội thoại, không phải thứ tự hình. Chỉ dùng ánh xạ vị trí khi bố cục 2×2, khay từ, chuỗi ô đích và ví dụ khớp. Xem [kiểm thử Ex 5A](docs/verification-conversation-pictures.md).
+
 ## Điền từ trong đoạn văn mua sắm
 
 **8.3 · Function: buying things · Ex 3**: bấm **Tự điền cả bài** để điền PIN, sign, particular, fit, size, Can; giữ cash ví dụ. Nhận tiêu đề Function trong khi giữ nhãn vocabulary của nguồn. Các ô trong khối đoạn văn không đánh số được ghép theo chữ xung quanh. Xem [kiểm thử đoạn văn Ex 3](docs/verification-shopping-paragraph.md).
