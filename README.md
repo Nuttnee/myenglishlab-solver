@@ -8,6 +8,10 @@ Extension dùng giao diện xanh và kho đáp án từ study. Không có phần
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
 3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
 
+## Chèn từ vào câu bằng ô hiện khi rê chuột
+
+**8.2 · Writing · Ex 3A**: dùng **Tự chèn từ đúng vị trí**. Extension ghép nguyên câu và khoảng trống trong kho, hiện ô nhập ở vị trí tương ứng rồi nhập từ. Giữ ví dụ, từ đã đúng và nội dung cũ ở vị trí khác. Quy tắc dùng chung cho widget `insertAWord`, không dựa vào số thứ tự câu. Nếu trang không hiện ô sau thao tác, extension dừng và báo câu cần kiểm tra. Xem [kiểm thử chèn từ](docs/verification-insert-word.md).
+
 ## Reading: một câu chọn đáp án
 
 **8.1 · Reading · Ex 6A — The Real Money Makers**: đã bổ sung section, số bài và Activity ID từ ảnh đối chiếu với kho. Bấm **Tự tích đáp án cả bài** để chọn **food**. Bài chỉ có một nhóm lựa chọn ngắn được nhận bằng tiêu đề hoặc liên kết đã xác minh; không đoán danh tính từ riêng bốn từ lựa chọn. Xem [kiểm thử Reading Ex 6A](docs/verification-single-reading-choice.md).

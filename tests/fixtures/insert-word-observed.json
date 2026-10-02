@@ -1,0 +1,862 @@
+{
+  "provenance": "User diagnostic 1.12.1, Writing 8.2 Ex3A; only observed question widget trees. Hidden inputs were omitted by original exporter; short first question also absent. Hover behavior described by user.",
+  "regions": [
+    {
+      "ancestors": [
+        {
+          "classes": "itemContent insertAWord",
+          "tag": "DIV"
+        },
+        {
+          "classes": "itemExample",
+          "tag": "DIV"
+        }
+      ],
+      "context": "The guitar is in good condition . (very)",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "sentence",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "The"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 3,
+          "tag": "#text",
+          "text": "guitar"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "is"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 7,
+          "tag": "#text",
+          "text": "in"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 9,
+          "tag": "#text",
+          "text": "good"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 11,
+          "tag": "#text",
+          "text": "condition"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 13,
+          "tag": "#text",
+          "text": "."
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 15,
+          "tag": "#text",
+          "text": "(very)"
+        },
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "itemContent insertAWord",
+          "tag": "DIV"
+        },
+        {
+          "classes": "item",
+          "tag": "LI"
+        }
+      ],
+      "context": "The guitar is easy to play . (fairly)",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "sentence",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "The"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 3,
+          "tag": "#text",
+          "text": "guitar"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "is"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 7,
+          "tag": "#text",
+          "text": "easy"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 9,
+          "tag": "#text",
+          "text": "to"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 11,
+          "tag": "#text",
+          "text": "play"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 13,
+          "tag": "#text",
+          "text": "."
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 15,
+          "tag": "#text",
+          "text": "(fairly)"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "ancestors": [
+        {
+          "classes": "itemContent insertAWord",
+          "tag": "DIV"
+        },
+        {
+          "classes": "item",
+          "tag": "LI"
+        }
+      ],
+      "context": "It will be difficult to find a better offer than this ! (extremely)",
+      "nodes": [
+        {
+          "after": "none",
+          "attributes": {},
+          "before": "none",
+          "classes": "sentence",
+          "parent": null,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "DIV"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 1,
+          "tag": "#text",
+          "text": "It"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 3,
+          "tag": "#text",
+          "text": "will"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 5,
+          "tag": "#text",
+          "text": "be"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 7,
+          "tag": "#text",
+          "text": "difficult"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 9,
+          "tag": "#text",
+          "text": "to"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 11,
+          "tag": "#text",
+          "text": "find"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 13,
+          "tag": "#text",
+          "text": "a"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 15,
+          "tag": "#text",
+          "text": "better"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 17,
+          "tag": "#text",
+          "text": "offer"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 19,
+          "tag": "#text",
+          "text": "than"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 21,
+          "tag": "#text",
+          "text": "this"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 23,
+          "tag": "#text",
+          "text": "!"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        },
+        {
+          "parent": 25,
+          "tag": "#text",
+          "text": "(extremely)"
+        },
+        {
+          "after": "none",
+          "attributes": {
+            "role": "button",
+            "tabindex": "0"
+          },
+          "before": "none",
+          "classes": "switcher",
+          "parent": 0,
+          "style": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(68, 68, 68)",
+            "cursor": "auto",
+            "display": "inline-block",
+            "fontWeight": "400",
+            "pointerEvents": "auto",
+            "textDecorationLine": "none"
+          },
+          "tag": "SPAN"
+        }
+      ],
+      "truncated": false
+    }
+  ]
+}
