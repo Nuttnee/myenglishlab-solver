@@ -1,12 +1,22 @@
-# MyEnglishLab Answer Helper · V11 Plus 1.11.0
+# MyEnglishLab Answer Helper
 
-Phát triển trên nền v11, giữ giao diện xanh và kho đáp án từ study. Không có phần luyện tập, gợi ý hoặc ghi chú học tập. Hai thư mục nguồn của bạn không bị sửa.
+Extension dùng giao diện xanh và kho đáp án từ study. Không có phần luyện tập, gợi ý hoặc ghi chú học tập. Hai thư mục nguồn của bạn không bị sửa.
 
 ## Cài hoặc cập nhật
 
 1. Giải nén ZIP. Chọn thư mục có manifest.json tại chrome://extensions hoặc edge://extensions, bật Developer mode rồi Load unpacked.
 2. Nếu đang dùng bản cũ: chép bản này vào đúng thư mục extension đã nạp, bấm Reload ở trang quản lý extension rồi F5 trang MyEnglishLab. Giữ nguyên đường dẫn để giữ dữ liệu đã lưu. Nếu đổi thư mục, xuất kho JSON ở bản cũ rồi nhập vào bản mới.
-3. Bảng phải hiện **V11+ · 1.11.0**. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
+3. Bảng hiển thị **Answer Helper**; không gắn số phiên bản vào tên. Mở bằng nút EN, icon extension hoặc Alt+Shift+M. Tắt bản helper cũ nếu có hai bảng.
+
+## Nhận bài ôn tập
+
+Nhận mã `R1`, `R2`, `R3` hoặc `Review N` ở tiêu đề, kể cả mã và chủ đề nằm trong các ô bảng riêng. R2 · Function: asking for and giving directions · Exercise 6 đã có sẵn trong kho; extension nhận bằng tiêu đề và kéo sáu cụm từ theo câu, giữ ví dụ. Không cần liên kết Activity ID riêng cho bài này.
+
+Lịch sử thay đổi được quản lý bằng Git. Số `manifest.version` vẫn được giữ nội bộ theo yêu cầu của Chrome; file chẩn đoán vẫn ghi số này để phân biệt bản đang chạy. Khóa storage cũ giữ nguyên để không mất kho, liên kết và lựa chọn đã lưu. Xem [kiểm thử nhận bài ôn tập](docs/verification-review.md).
+
+## Lịch sử tính năng
+
+Các báo cáo phiên bản bên dưới là hồ sơ kiểm thử cũ; giao diện hiện tại không hiển thị các nhãn này.
 
 ## Tự nối hai cột trong 1.11.0
 

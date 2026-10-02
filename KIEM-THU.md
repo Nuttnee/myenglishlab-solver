@@ -1,3 +1,5 @@
+Kiểm thử cập nhật 2026-10-02: [Nhận bài ôn tập và giao diện](docs/verification-review.md).
+
 Bản hiện tại: **1.11.0**. Xem [KIEM-THU-1.11.0.md](KIEM-THU-1.11.0.md).
 
 Bản hiện tại: **1.10.2**. Xem [KIEM-THU-1.10.2.md](KIEM-THU-1.10.2.md).

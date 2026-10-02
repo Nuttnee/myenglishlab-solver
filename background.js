@@ -135,6 +135,7 @@ async function handle(msg,sender) {
     const framesReady=scanned.filter(r=>r.status==='fulfilled').map(r=>r.value);
     const links=(await chrome.storage.local.get(LINKS))[LINKS]||{};
     const matching=framesReady.filter(f=>{
+      if(f.page.identityConflict)return false;
       const resolved=MEL.match(data.lessons,[f.page],links);
       if(resolved)return resolved.lesson.id===lesson.id;
       const selected=msg.manualFrames?.find(p=>p.frameId===f.frameId && p.url===f.page.url && p.section===f.page.section && p.exercise===f.page.exercise);

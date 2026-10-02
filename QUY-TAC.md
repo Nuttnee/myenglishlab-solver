@@ -1,4 +1,4 @@
-# Quy tắc tự làm · V11 Plus 1.11.0
+# Quy tắc tự làm
 
 Giữ nền v11 và seed study nguyên vẹn. Quy tắc thao tác dựa trên cấu trúc điều khiển; không thêm nhánh theo lesson ID để sửa từng bài.
 
@@ -102,3 +102,7 @@ Ghép theo số trong mã ô, không theo vị trí DOM hoặc thứ tự ô cò
 - Ví dụ/ô khóa phải đã nối đúng trước khi chạy. Cặp khác đáp án giữ nguyên; chỉ nối hai đầu chưa được sử dụng. Sau mỗi cặp, yêu cầu đúng đường và đúng trạng thái trước khi tiếp tục.
 - Không tự làm lại nếu click không được trang ghi nhận. Dừng khi đổi bài, nội dung nút đổi, nút bị thay giữa hai click hoặc khi người dùng hủy.
 - Xác minh SVG/DOM không đồng nghĩa máy chủ Pearson đã lưu/chấm.
+
+## Tiêu đề bài ôn tập
+
+Nhận R1/R2/R3 hoặc Review N bên cạnh tên chủ đề; chuẩn hóa khoảng trắng và hoa/thường. Không lấy R2 nằm trong một câu văn làm section. Khi cùng trang có nhiều mã section mâu thuẫn, dừng nhận và không cho chạy qua lựa chọn thủ công. Không thay đổi kho đáp án để khắc phục lỗi đọc tiêu đề.
