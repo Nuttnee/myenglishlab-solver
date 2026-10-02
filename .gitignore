@@ -1,0 +1,12 @@
+# Local dependencies, secrets, browser data and generated archives
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+browser-profile/
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db

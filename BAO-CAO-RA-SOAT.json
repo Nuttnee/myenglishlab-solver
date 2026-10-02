@@ -1,0 +1,2614 @@
+{
+  "version": "1.7.0",
+  "scope": "Synthetic rule audit of supplied answer corpus, not live Pearson pages",
+  "lessons": 310,
+  "byType": {
+    "drag_image": 8,
+    "ordering": 16,
+    "type_word": 127,
+    "fill_blank": 43,
+    "tick_box": 71,
+    "matching": 38,
+    "writing": 4,
+    "speaking": 2,
+    "drag_word": 1
+  },
+  "units": {
+    "1": 30,
+    "2": 34,
+    "3": 42,
+    "4": 31,
+    "5": 30,
+    "6": 39,
+    "7": 25,
+    "8": 29,
+    "9": 41,
+    "10": 9
+  },
+  "native": [
+    {
+      "id": "ta1-u1-x-ex1",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-exx",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex3",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex4a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex4b",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex4c",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex4d",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex1",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex2a",
+      "passed": true,
+      "answers": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex2b",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex3",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex4",
+      "passed": true,
+      "answers": 16,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex5",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex6a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex6b",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex6c",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-exx1",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-exx2",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex1a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex1b",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex2",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex3",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex4",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx1",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx2",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx3",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx4",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx5",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx6",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx7",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex1",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex2",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex3",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex4a",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex4b",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex5a",
+      "passed": true,
+      "answers": 1,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex5b",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex5c",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex6a",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex1",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex2a",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex2b",
+      "passed": true,
+      "answers": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex3",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex4",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex5a",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex5b",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-safari-labels",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-safari-questions",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-safari-story",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-safari-meaning",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex1a",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex1b",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex2a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex2b",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-works-in",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-ex4",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-hina",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-quotes",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-jobs",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-who",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-choose",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-bad-things",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-prepositions",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-collocations",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex2a",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex2b",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex3",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex4a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-newyork-mcq",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-invitations-select",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.1-ex6a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-compound-nouns",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-places-pictures",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-painting-tf",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-painting-questions",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-painting-words",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-question-words",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex3b",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-write-questions",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.3-ex1a",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-collocations-sentences",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.3-ex2",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-phone-correct",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.3-ex4",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex5",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-phone-messages",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img92",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img93",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img94",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img95",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img96",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img97",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex1a",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex1b",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex2a",
+      "passed": true,
+      "answers": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex2b",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex3",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex4",
+      "passed": true,
+      "answers": 19,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex5",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex6",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex7",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex8",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex9",
+      "passed": true,
+      "answers": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex10a",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex10b",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.1-ex1a",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.1-ex1b",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.1-ex2",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.1-ex3",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.1-ex4",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img116",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img117",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img118",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img119",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex1",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex2",
+      "passed": true,
+      "answers": 16,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex3a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex4a",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex4b",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex5",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex6a",
+      "passed": true,
+      "answers": 2,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex6b",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex6c",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex1",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex2",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex3",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex4a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex4b",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img134",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img135",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img136",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img137",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img138",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img139",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-ex1a",
+      "passed": true,
+      "answers": 16,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-ex1b",
+      "passed": true,
+      "answers": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-transport-quotes",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-pastcont-endings",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-pastcont-conversations",
+      "passed": true,
+      "answers": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-timbobo-pictures",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-timbobo-story",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-tobigutt-map",
+      "passed": true,
+      "answers": 1,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-tobigutt-tf",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-tobigutt-complete",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-ex1a",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-ex1b",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-verb-patterns",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-verb-patterns-sentences",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-travel-tips-headings",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-travel-tips-tf",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-travel-tips-words",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-sequencers-stories",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-ex1",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-exx-directions-prepositions",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-exx-map-places",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-exx-directions-word-order",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-intro-gaps",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-topics-order",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-speakers-facts",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-good-things",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-problems-speakers",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-vocab-matching",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-speakers-gaps",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-ex1",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-present-perfect-conversations",
+      "passed": true,
+      "answers": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-for-since",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-joy-interview",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-pp-listen-choose",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-table-tennis-numbers",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-table-tennis-tf",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-table-tennis-meanings",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-ex1",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-menu",
+      "passed": true,
+      "answers": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-will-might",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-predictions-word-order",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-reading-pictures",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-ex5b",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-i184",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-i185",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-ex6b",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i187",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i188",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i189",
+      "passed": true,
+      "answers": 17,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i190",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i191",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i192",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i193",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i194",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i195",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i197",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i198",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i199",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-ex2",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i201",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i202",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i203",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-ex6",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i205",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i206",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-ex9a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i208",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i209",
+      "passed": true,
+      "answers": 24,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.1-ex1",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i213",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i214",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i215",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-ex5a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i217",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i218",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i219",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i220",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i221",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i222",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i223",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.2-exx-i224",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.2-exx-i225",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.2-exx-i226",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.2-ex5d",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.3-ex1",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.3-exx-i229",
+      "passed": true,
+      "answers": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.3-exx-i230",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i231",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i232",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i233",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i234",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i235",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i236",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-8.1-ex1",
+      "passed": true,
+      "answers": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-a",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-ex3",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-b",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-c",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-d",
+      "passed": true,
+      "answers": 1,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-e",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-f",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-g",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-h",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-i",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-j",
+      "passed": true,
+      "answers": 18,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-k",
+      "passed": true,
+      "answers": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-8.2-ex6b",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-l",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-m",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-n",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-o",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-p",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-q",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-r",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-s",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-t",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-u",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-v",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-w",
+      "passed": true,
+      "answers": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-x",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-y",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-ex1b",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-b",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-9.1-ex3",
+      "passed": true,
+      "answers": 1,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-c",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-d",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-e",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-f",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-9.1-ex8",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-9.2-ex1a",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-g",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-h",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-articles-sentences",
+      "passed": true,
+      "answers": 20,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-articles-text",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-speakers",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-questions",
+      "passed": true,
+      "answers": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-vocab-meanings",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-vocab-text",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-animals-crossword",
+      "passed": true,
+      "answers": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-certainty-correction",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-certainty-texts",
+      "passed": true,
+      "answers": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-time-to-think",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-true-false",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-animals-mentioned",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-gapfill",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-vocab-matching",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-speakers",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-fear-words",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex1",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex2",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex3",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex4",
+      "passed": true,
+      "answers": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex5",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex6",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex7a",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex7b",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex8",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex9",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex10",
+      "passed": true,
+      "answers": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex11",
+      "passed": true,
+      "answers": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex12",
+      "passed": true,
+      "answers": 14,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex1",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex2",
+      "passed": true,
+      "answers": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex3",
+      "passed": true,
+      "answers": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex4",
+      "passed": true,
+      "answers": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex5",
+      "passed": true,
+      "answers": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex6",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex7",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex8",
+      "passed": true,
+      "answers": 5,
+      "unresolved": []
+    }
+  ],
+  "drag": [
+    {
+      "id": "ta1-u1-x-ex1",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-exx",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-x-ex4a",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex1",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex2a",
+      "passed": true,
+      "expected": 15,
+      "ready": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.2-ex6a",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex1b",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.3-ex2",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx2",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx5",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u1-1.4-exx6",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.1-ex4b",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex1",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex2a",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.2-ex3",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-safari-labels",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex1a",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex1b",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex2a",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-2.3-ex2b",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-works-in",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-hina",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-jobs",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u2-x-exx-bbc-who",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex2a",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex2b",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex3",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-compound-nouns",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-places-pictures",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-question-words",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex3b",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.3-ex2",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-3.3-ex4",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-ex5",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-x-exx-img94",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex1b",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex2a",
+      "passed": true,
+      "expected": 12,
+      "ready": 12,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex2b",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u3-r1-ex10b",
+      "passed": true,
+      "expected": 11,
+      "ready": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img119",
+      "passed": true,
+      "expected": 8,
+      "ready": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.2-ex6a",
+      "passed": true,
+      "expected": 2,
+      "ready": 2,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex2",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex4a",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-4.3-ex4b",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img135",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta1-u4-x-exx-img137",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-ex1b",
+      "passed": true,
+      "expected": 13,
+      "ready": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-transport-quotes",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-pastcont-endings",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-timbobo-pictures",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.1-exx-tobigutt-complete",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-ex1b",
+      "passed": true,
+      "expected": 8,
+      "ready": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.2-exx-travel-tips-headings",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-ex1",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-exx-map-places",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.3-exx-directions-word-order",
+      "passed": true,
+      "expected": 8,
+      "ready": 8,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-topics-order",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-problems-speakers",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u5-5.4-exx-vocab-matching",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-ex1",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.1-exx-table-tennis-meanings",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-menu",
+      "passed": true,
+      "expected": 13,
+      "ready": 13,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-will-might",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-predictions-word-order",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-reading-pictures",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-6.2-exx-i184",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i188",
+      "passed": true,
+      "expected": 10,
+      "ready": 10,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i191",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i193",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i194",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-x-exx-i198",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i201",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-ex6",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u6-r2-exx-i208",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i213",
+      "passed": true,
+      "expected": 6,
+      "ready": 6,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i217",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i219",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i223",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-7.2-ex5d",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i231",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i234",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i235",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u7-x-exx-i236",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-a",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-e",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-h",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-k",
+      "passed": true,
+      "expected": 15,
+      "ready": 15,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-m",
+      "passed": true,
+      "expected": 11,
+      "ready": 11,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-p",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-s",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u8-x-exx-t",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-g",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-h",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-speakers",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-vocab-meanings",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-listening-vocab-text",
+      "passed": true,
+      "expected": 7,
+      "ready": 7,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-vocab-matching",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-x-exx-video-speakers",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex4",
+      "passed": true,
+      "expected": 9,
+      "ready": 9,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex9",
+      "passed": true,
+      "expected": 4,
+      "ready": 4,
+      "unresolved": []
+    },
+    {
+      "id": "ta2-u9-r3-ex12",
+      "passed": true,
+      "expected": 14,
+      "ready": 14,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex5",
+      "passed": true,
+      "expected": 3,
+      "ready": 3,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex7",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    },
+    {
+      "id": "ta3-u10-10.1-ex8",
+      "passed": true,
+      "expected": 5,
+      "ready": 5,
+      "unresolved": []
+    }
+  ],
+  "unknown": [
+    {
+      "id": "ta1-u2-2.1-ex6b",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    },
+    {
+      "id": "ta1-u4-4.2-ex3b",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    },
+    {
+      "id": "ta1-u4-4.3-ex4c",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    },
+    {
+      "id": "ta2-u5-x-model1",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    },
+    {
+      "id": "ta2-u8-x-model1",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    },
+    {
+      "id": "ta3-u10-10.1-ex9",
+      "reason": "No non-example answer rows; writing/speaking use separate UI."
+    }
+  ],
+  "testedAt": "2026-09-28T18:52:38.359Z",
+  "disclaimer": "Historical seed-generated consistency checks for 1.7.0. Not independent control coverage or Pearson success rates. See KIEM-THU-1.8.0.json for the independent fixture outcomes.",
+  "historical": true,
+  "reviewedIn": "1.8.0"
+}

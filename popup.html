@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MyEnglishLab · V11 Plus</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header class="app-header">
+    <div class="topbar"><div><h1>Answer Helper <span>V11+ · 1.11.0</span></h1><p>Tiếng Anh 1–3 · Unit 1–10</p></div><button id="panelBtn" class="primary">Mở trên trang ↗</button></div>
+    <section class="support-bar" aria-label="Công cụ hỗ trợ">
+      <div class="support-actions"><button id="diagnosticBtn" type="button">↓ Xuất chẩn đoán</button><button id="stopBtn" type="button" class="ghost">Dừng thao tác</button></div>
+      <p>Gặp lỗi điền/chọn hoặc kéo thả? Xuất file rồi gửi lại trong cuộc trò chuyện.</p>
+    </section>
+    <div id="statusRow" class="status-row" hidden><div id="status" role="status" aria-live="polite"></div><button id="dismissStatus" type="button" aria-label="Đóng thông báo" title="Đóng thông báo">×</button></div>
+  </header>
+  <main>
+    <section id="activity" class="activity"><p>Mở bài MyEnglishLab rồi bấm Nhận bài.</p><button id="detectBtn" class="ghost">Nhận bài đang mở</button><div id="suggestion"></div></section>
+    <section id="picker">
+      <div class="label">Tiếng Anh</div><div id="courseTabs" class="buttons courses"></div>
+      <div class="label">Unit <span id="total"></span></div><div id="unitTabs" class="buttons units"></div>
+      <div class="label">Dạng bài</div><div id="typeTabs" class="buttons chips"></div>
+      <label class="search"><span class="sr-only">Tìm bài</span><input id="search" placeholder="Tìm section, bài hoặc nội dung câu hỏi…" type="search"></label>
+      <div id="lessonList" class="cards"></div>
+    </section>
+    <section id="lesson" hidden></section>
+    <section id="plan" hidden></section>
+    <details class="files"><summary>Kho đáp án · Nhập / Xuất file</summary>
+      <p>Nhận JSON từ bản study (v2), bản v11 hoặc file bài lẻ. Dữ liệu được lưu trên máy.</p>
+      <label>File đáp án<input id="importFile" type="file" accept=".json,application/json"></label>
+      <label>Cách nhập<select id="importMode"><option value="merge">Gộp / cập nhật bài trùng mã</option><option value="replace">Thay thế kho hiện tại</option></select></label>
+      <div class="actions"><button id="importBtn">Nhập file</button><button id="exportBtn" class="ghost">Xuất kho đáp án</button></div>
+      <p id="fileStatus" aria-live="polite"></p>
+    </details>
+    <footer>Chọn đúng bài, kiểm tra kết quả trên trang rồi tự nộp.</footer>
+  </main>
+  <script src="lib/rules.js"></script><script src="lib/catalog.js"></script><script src="lib/data.js"></script><script src="popup.js"></script>
+</body></html>

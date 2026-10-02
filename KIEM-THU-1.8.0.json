@@ -1,0 +1,537 @@
+{
+  "version": "1.8.0",
+  "testedAt": "2026-09-29T06:57:16.595Z",
+  "scope": "25 synthetic scenarios from 13 independently authored fixture files. Not live Pearson coverage. Passing a refusal expectation is not completing an exercise.",
+  "categories": {
+    "complete": 11,
+    "partial": 3,
+    "singleRequested": 1,
+    "refusedOrUnsupported": 9,
+    "domOnlyUnconfirmed": 1
+  },
+  "integration": "test-report-integration.cjs: real extension worker/UI, partial routing, manual selection and page change, source Activity ID, checkbox group isolation, drag/click-token refusal, diagnostic minimisation",
+  "regressionSuites": [
+    "test-auto-fill.cjs",
+    "test-radio.cjs",
+    "test-tf.cjs",
+    "test-general-routing.cjs",
+    "test-auto-drag.cjs",
+    "test-diagnostic-regression.cjs"
+  ],
+  "results": [
+    {
+      "fixture": "f01-text-table",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "dom": true,
+        "app": true,
+        "example": "live",
+        "state": {
+          "g2": "works",
+          "g3a": "don't like",
+          "g3b": "prefer",
+          "g4": "Do you play",
+          "g5": "watches"
+        }
+      },
+      "applied": {
+        "done": 5,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f01-text-table",
+      "query": "listen=keyup",
+      "onlyN": "",
+      "category": "domOnlyUnconfirmed",
+      "rawFixturePass": false,
+      "route": "native",
+      "appCheck": {
+        "pass": false,
+        "dom": true,
+        "app": false,
+        "example": "live",
+        "state": {}
+      },
+      "applied": {
+        "done": 5,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f02-select-inline",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "filled": 3,
+        "item5": "F",
+        "state": {
+          "s2": "best",
+          "s3": "easier",
+          "s4": "older",
+          "s5": "F"
+        }
+      },
+      "applied": {
+        "done": 4,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f02-select-inline",
+      "query": "variant=ambiguous",
+      "onlyN": "",
+      "category": "partial",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "filled": 3,
+        "item5": null,
+        "state": {
+          "s2": "best",
+          "s3": "easier",
+          "s4": "older"
+        }
+      },
+      "applied": {
+        "done": 3,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f02-select-inline",
+      "query": "variant=custom",
+      "onlyN": "",
+      "category": "partial",
+      "rawFixturePass": false,
+      "route": "native",
+      "appCheck": {
+        "pass": false,
+        "filled": 3,
+        "item5": null,
+        "state": {
+          "s2": "best",
+          "s3": "easier",
+          "s4": "older"
+        }
+      },
+      "applied": {
+        "done": 3,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f03-radio-tf",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "correct": 5,
+        "wrong": 0,
+        "state": {
+          "q2": "T",
+          "q3": "F",
+          "q4": "T",
+          "q5": "F",
+          "q6": "F"
+        }
+      },
+      "applied": {
+        "done": 5,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f03-radio-tf",
+      "query": "variant=hidden",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "unsupported-or-manual",
+      "appCheck": {
+        "pass": false,
+        "correct": 0,
+        "wrong": 0,
+        "state": {}
+      }
+    },
+    {
+      "fixture": "f03-radio-tf",
+      "query": "variant=mousedown",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "native",
+      "appCheck": {
+        "pass": false,
+        "correct": 0,
+        "wrong": 0,
+        "state": {}
+      },
+      "applied": {
+        "done": 0,
+        "error": "Trang chưa nhận thao tác. Dùng Chỉ vị trí hoặc điền thủ công."
+      }
+    },
+    {
+      "fixture": "f04-radio-letter-pairs",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "correct": 3,
+        "state": {
+          "B": "He walks to work every day.",
+          "C": "She is going to paint her kitchen.",
+          "D": "He is going to visit his aunt."
+        }
+      },
+      "applied": {
+        "done": 3,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f05-checkbox-multi",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "ticked": "sharks,spiders,whales"
+      },
+      "applied": {
+        "done": 6,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f05-checkbox-multi",
+      "query": "variant=numbered",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "ticked": "sharks,spiders,whales"
+      },
+      "applied": {
+        "done": 6,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f06-click-syllable",
+      "query": "",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "unsupported-or-manual",
+      "appCheck": {
+        "pass": false,
+        "safe": true,
+        "state": {}
+      }
+    },
+    {
+      "fixture": "f07-drag-wordpool",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "drag",
+      "appCheck": {
+        "pass": true,
+        "appCorrect": 5,
+        "dom": {
+          "1b": "running",
+          "1c": "junk",
+          "2a": "coffee",
+          "2b": "relax",
+          "2c": "sleep"
+        },
+        "poolMoved": false,
+        "rejected": 0,
+        "state": {
+          "1c": "junk",
+          "1b": "running",
+          "2a": "coffee",
+          "2b": "relax",
+          "2c": "sleep"
+        }
+      },
+      "dragged": {
+        "done": 4,
+        "remaining": 0,
+        "error": ""
+      }
+    },
+    {
+      "fixture": "f07-drag-wordpool",
+      "query": "slot=opaque",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "drag-unrecognised",
+      "appCheck": {
+        "pass": false,
+        "appCorrect": 1,
+        "dom": {
+          "1b": "",
+          "1c": "junk",
+          "2a": "",
+          "2b": "",
+          "2c": ""
+        },
+        "poolMoved": false,
+        "rejected": 0,
+        "state": {
+          "1c": "junk"
+        }
+      }
+    },
+    {
+      "fixture": "f07-drag-wordpool",
+      "query": "trusted=1",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "drag",
+      "appCheck": {
+        "pass": false,
+        "appCorrect": 1,
+        "dom": {
+          "1b": "",
+          "1c": "junk",
+          "2a": "",
+          "2b": "",
+          "2c": ""
+        },
+        "poolMoved": false,
+        "rejected": 2,
+        "state": {
+          "1c": "junk"
+        }
+      },
+      "dragged": {
+        "done": 0,
+        "remaining": 4,
+        "error": "4 ô chưa hoàn tất. Trang chưa nhận thao tác tự kéo thả; không tính là đã điền."
+      }
+    },
+    {
+      "fixture": "f07-drag-wordpool",
+      "query": "trusted=1&handle=0",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "drag",
+      "appCheck": {
+        "pass": false,
+        "appCorrect": 1,
+        "dom": {
+          "1b": "",
+          "1c": "junk",
+          "2a": "",
+          "2b": "",
+          "2c": ""
+        },
+        "poolMoved": false,
+        "rejected": 2,
+        "state": {
+          "1c": "junk"
+        }
+      },
+      "dragged": {
+        "done": 0,
+        "remaining": 4,
+        "error": "4 ô chưa hoàn tất. Trang chưa nhận thao tác tự kéo thả; không tính là đã điền."
+      }
+    },
+    {
+      "fixture": "f08-drag-duplicates",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "drag",
+      "appCheck": {
+        "pass": true,
+        "state": {
+          "1": "the",
+          "2": "the",
+          "3": "a",
+          "4": "Do",
+          "5": "Did"
+        }
+      },
+      "dragged": {
+        "done": 5,
+        "remaining": 0,
+        "error": ""
+      }
+    },
+    {
+      "fixture": "f08-drag-duplicates",
+      "query": "numbers=0",
+      "onlyN": "",
+      "category": "partial",
+      "rawFixturePass": true,
+      "route": "drag",
+      "appCheck": {
+        "pass": true,
+        "state": {
+          "1": "the",
+          "2": "the",
+          "3": "a"
+        }
+      },
+      "dragged": {
+        "done": 3,
+        "remaining": 2,
+        "error": "2 ô chưa hoàn tất. Chưa ghép chắc chắn với câu trên trang."
+      }
+    },
+    {
+      "fixture": "f09-drag-image-label",
+      "query": "",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": true,
+      "route": "drag-unrecognised",
+      "appCheck": {
+        "pass": true,
+        "state": {}
+      }
+    },
+    {
+      "fixture": "f09-drag-image-label",
+      "query": "numbers=1",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "drag",
+      "appCheck": {
+        "pass": true,
+        "state": {
+          "1": "play the guitar",
+          "2": "read the paper",
+          "3": "go shopping"
+        }
+      },
+      "dragged": {
+        "done": 3,
+        "remaining": 0,
+        "error": ""
+      }
+    },
+    {
+      "fixture": "f10-categorise",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "drag",
+      "appCheck": {
+        "pass": true,
+        "correct": 5,
+        "state": {
+          "walk": "Regular",
+          "go": "Irregular",
+          "play": "Regular",
+          "stop": "Regular",
+          "take": "Irregular"
+        }
+      },
+      "dragged": {
+        "done": 5,
+        "remaining": 0,
+        "error": ""
+      }
+    },
+    {
+      "fixture": "f11-ordering-sortable",
+      "query": "",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "unsupported-or-manual",
+      "appCheck": {
+        "pass": false,
+        "untouched": true,
+        "state": {}
+      }
+    },
+    {
+      "fixture": "f12-matching-select-letters",
+      "query": "",
+      "onlyN": "",
+      "category": "refusedOrUnsupported",
+      "rawFixturePass": false,
+      "route": "unsupported-or-manual",
+      "appCheck": {
+        "pass": false,
+        "state": {}
+      }
+    },
+    {
+      "fixture": "f13-list-numbering",
+      "query": "",
+      "onlyN": "",
+      "category": "complete",
+      "rawFixturePass": true,
+      "route": "native",
+      "appCheck": {
+        "pass": true,
+        "wrongPlacements": 0,
+        "state": {
+          "iA": "plays",
+          "iB": "drink",
+          "iC": "go"
+        }
+      },
+      "applied": {
+        "done": 3,
+        "verification": "dom-only"
+      }
+    },
+    {
+      "fixture": "f13-list-numbering",
+      "query": "",
+      "onlyN": "A",
+      "category": "singleRequested",
+      "rawFixturePass": false,
+      "route": "native",
+      "appCheck": {
+        "pass": false,
+        "wrongPlacements": 0,
+        "state": {
+          "iA": "plays"
+        }
+      },
+      "applied": {
+        "done": 1,
+        "verification": "dom-only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "manifest_version": 3,
+  "name": "MyEnglishLab Answer Helper · V11 Plus",
+  "version": "1.11.0",
+  "description": "Unit 1–10: kho đáp án, điền ô, chọn đáp án và hỗ trợ kéo thả trên MyEnglishLab.",
+  "minimum_chrome_version": "111",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://*.pearson.com/*",
+    "https://*.myenglishlab.com/*",
+    "https://*.pearson-intl.com/*"
+  ],
+  "action": {
+    "default_title": "MyEnglishLab Answer Helper",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.pearson.com/*",
+        "https://*.myenglishlab.com/*",
+        "https://*.pearson-intl.com/*"
+      ],
+      "js": [
+        "lib/rules.js",
+        "lib/context.js",
+        "lib/letters.js",
+        "lib/crossword.js",
+        "lib/page.js",
+        "content.js"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "toggle-panel": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Mở / đóng bảng đáp án"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup.html",
+        "popup.css",
+        "popup.js",
+        "lib/data.js",
+        "lib/rules.js",
+        "lib/catalog.js"
+      ],
+      "matches": [
+        "https://*.pearson.com/*",
+        "https://*.myenglishlab.com/*",
+        "https://*.pearson-intl.com/*"
+      ]
+    }
+  ]
+}
