@@ -163,6 +163,7 @@ async function handle(msg,sender) {
     }
     const hasDrops=drops.some(r=>r.status==='fulfilled'&&(r.value.targets>0||r.value.sources>0));
     const canPick=matching.some(f=>f.fields.some(field=>['text','select','radio','letters'].includes(field.kind)));
+    if(!hasDrops&&!canPick&&/click.*(?:alternative|word)/i.test(lesson.instruction||''))return {tabId:tab.id,kind:'unresolved',fallback:false,message:'Bài dùng từ bấm trực tiếp trong câu; chưa xác định được trạng thái chọn. Bấm một đáp án trên trang rồi Xuất chẩn đoán để thu cấu trúc và trạng thái từ đã chọn.'};
     if(lesson.type==='matching'&&!hasDrops&&!canPick)return {tabId:tab.id,kind:'unresolved',fallback:false,message:'Đã nhận bài nối cặp nhưng chưa hỗ trợ điều khiển nối trên trang này. Bấm Xuất chẩn đoán ở đầu bảng; bản này thu thêm cấu trúc hai cột và đường nối.'};
     return {tabId:tab.id,kind:hasDrops?'drag-unrecognised':'unresolved',fallback:!hasDrops&&canPick,message:hasDrops?'Đã nhận dạng kéo thả nhưng chưa ghép chắc chắn nguồn/đích. Xuất chẩn đoán để xem quy tắc còn thiếu.':canPick?'Chưa ghép chắc chắn toàn bộ ô. Có thể dùng Bấm ô lần lượt hoặc Xem / đổi ghép ô.':'Chưa nhận diện được điều khiển có thể tự làm. Xuất chẩn đoán để bổ sung cơ chế phù hợp.'};
   }
@@ -174,7 +175,7 @@ async function handle(msg,sender) {
     const capable=await dragFrames(tab.id,list);
     if(msg.type==='MEL_DRAG_DIAGNOSTIC') {
       const results=await Promise.allSettled(list.map(async f=>{
-        const controls=await run(tab.id,f.frameId,'diagnostic');
+        const controls=await run(tab.id,f.frameId,'diagnostic',[lesson]);
         let drag;
         try{drag=await dragRun(tab.id,f.frameId,'diagnostic',[lesson]);}catch(error){drag={dragError:error.message};}
         return {frameId:f.frameId,frameURL:f.url.replace(/[?#].*$/,'').replace(/(\/activit(?:y|ies)\/)[^/]+/i,'$1[activity]'),...drag,controls,ruleVersion:MELRules.version,nativePlan:MEL.nativePlan(lesson,controls.fields)};
