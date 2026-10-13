@@ -118,3 +118,7 @@ Nhóm chủ đề rõ ràng trong sectionTitle được dùng để đối chi�
 ## Dòng câu chứa ô nhập số
 
 Khi xếp thứ tự bằng số, lấy lineContext từ dòng có đúng một control, tách bằng BR hoặc khối HTML, giữ span inline. Không dùng ngữ cảnh chung của cả đoạn để suy vị trí; không nội suy theo thứ tự ô cho câu chưa ghép chắc chắn. Vẫn giữ context/slot của đoạn cho các bài điền chỗ trống khác.
+
+## Nhiều ô trong câu hỏi a/b — 1.14.14
+
+Nguồn dạng câu hỏi ? — trả lời, có phần 1b-1/1b-2: đối chiếu số khối, nhãn a)/b), toàn bộ template câu hỏi và trả lời, số ô và chỉ số phần. Dấu (…) là ô khác; dấu ___ xác định vị trí phần đang ghép. Template trên trang bỏ giá trị input và bao gồm ví dụ readonly. Không nội suy thứ tự khi thiếu bằng chứng câu con, không dùng riêng số khối hoặc chỉ số RESPONSE. Từ chối mơ hồ; giữ quy tắc cũ cho hội thoại có cách đánh số tương tự.
