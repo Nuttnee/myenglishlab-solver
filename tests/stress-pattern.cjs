@@ -1,0 +1,43 @@
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),vm=require('node:vm'),assert=require('node:assert/strict');
+const {chromium}=require('playwright');
+const base=process.env.MEL_TEST_EXTENSION?path.resolve(process.env.MEL_TEST_EXTENSION):path.resolve(__dirname,'..'),seed=JSON.parse(fs.readFileSync(path.join(base,'data/seed.json'),'utf8'));
+const id='ta2-u9-9.1-ex3',lesson=seed.lessons.find(l=>l.id===id),c=vm.createContext({});
+for(const f of ['rules','catalog','data'])vm.runInContext(fs.readFileSync(path.join(base,'lib',f+'.js'),'utf8'),c);
+const header={origin:'https://myenglishlab.pearson-intl.com',section:'9.1',skill:'grammar',exercise:'3'};
+assert.equal(c.MEL.match(seed.lessons,[header]).lesson.id,id);
+const R=c.MELRules,patterns=['oOo','Ooo','ooO'];
+for(const a of patterns)for(const b of patterns)assert.equal(R.optionMatch(a,b),a===b);
+assert(R.optionMatch(' O o o ','Ooo'));
+assert(!R.optionMatch('ooo','Ooo'));
+assert(R.optionMatch('Food','food'));
+assert(R.optionMatch('T','True'));
+assert(R.optionMatch('F','False'));
+const opts=patterns.map((text,i)=>({text,value:String(i)}));
+assert.equal(R.findOption(opts,'Ooo').text,'Ooo');
+assert.equal(R.findOption([...opts,{text:'Ooo',value:'other'}],'Ooo'),null);
+assert.equal(R.findOption([{text:'ooO',value:'Ooo'}],'Ooo'),null);
+assert.equal(R.findOption([{text:'ooo',value:'Ooo'}],'Ooo'),null);
+assert.equal(R.findOption([{text:'oOo',value:'1'},{text:'ooO',value:'2'}],'Ooo'),null);
+console.log('PASS stress patterns preserve case, spacing normalized, duplicate/missing/case-lost labels rejected, value cannot override label; ordinary word and T/F matching retained');
+const html=`<!doctype html><meta charset="utf-8"><table><tr><td>9.1</td><td>Grammar: comparatives / superlatives</td></tr></table><h3>Exercise 3</h3><p>Listen to the comparative phrases. Select the correct stress pattern. Then listen again and repeat the phrases.</p><div class="question">${['oOo','Ooo','ooO'].map((s,i)=>`<input type="radio" name="question" value="${i+17}"><span>${s}</span><br>`).join('')}</div><button id="save">Save</button><button id="submit">Submit</button><script>window.ops=0;window.saved=0;document.querySelectorAll('button').forEach(el=>el.onclick=()=>saved++);document.addEventListener('change',()=>ops++);</script>`;
+(async()=>{
+ const profile=fs.mkdtempSync(path.join(os.tmpdir(),'mel-stress-pattern-'));
+ const ctx=await chromium.launchPersistentContext(profile,{headless:true,...(process.env.MEL_TEST_BROWSER?{executablePath:process.env.MEL_TEST_BROWSER}:{}),args:[`--disable-extensions-except=${base}`,`--load-extension=${base}`]});
+ try{
+  const worker=ctx.serviceWorkers()[0]||await ctx.waitForEvent('serviceworker');await worker.evaluate(data=>chrome.storage.local.set({melAnswerDataV11:data}),seed);
+  await ctx.route('https://**/*',r=>r.fulfill({contentType:'text/html',body:html}));const p=await ctx.newPage();await p.goto(header.origin+'/activities/unseen-stress-pattern/0/solve');await p.locator('mel-answer-root .bubble').click();await p.frameLocator('mel-answer-root iframe').locator('#lesson h2').waitFor();const app=p.frames().find(f=>f.url().includes('popup.html?panel=1'));assert.equal(await app.evaluate(()=>state.lessonId),id);
+  const solve=()=>app.evaluate(id=>chrome.runtime.sendMessage({type:'MEL_AUTO_SOLVE',lessonId:id}),id);
+  await p.locator('input').first().check();const r=await solve();assert.equal(r.done,1,JSON.stringify(r));assert(!r.error);assert.equal(await p.locator('input:checked').evaluate(el=>el.nextElementSibling.textContent),'Ooo');assert.equal(await p.evaluate(()=>saved),0);
+  const ops=await p.evaluate(()=>ops);await solve();assert.equal(await p.evaluate(()=>ops),ops);
+  await p.locator('input').first().check();
+  await app.getByRole('button',{name:'Bấm ô lần lượt',exact:true}).click();
+  await p.locator('#mel-pick-tip').waitFor();
+  await p.locator('input').first().click();
+  await p.waitForFunction(()=>document.querySelector('input:checked')?.nextElementSibling.textContent==='Ooo');
+  assert.equal(await p.evaluate(()=>saved),0);
+  console.log('PASS sequential picker selects exact Ooo when clicking a different option in the same group');
+  const stored=await worker.evaluate(()=>chrome.storage.local.get('melAnswerDataV11'));assert.deepEqual(stored.melAnswerDataV11.lessons.find(l=>l.id===id),lesson);
+  await p.locator('h3').evaluate(el=>el.textContent='Exercise 4');assert.equal((await solve()).ok,false);
+  console.log('PASS MV3: recognizes Grammar header with pronunciation source skill, selects Ooo, replaces oOo, idempotent, no Save/Submit/storage mutation, changed Exercise refused');
+ }finally{await ctx.close();const relative=path.relative(os.tmpdir(),profile);assert(relative.startsWith('mel-stress-pattern-')&&!relative.includes(path.sep));fs.rmSync(profile,{recursive:true,force:true});}
+})().catch(e=>{console.error(e);process.exitCode=1;});
