@@ -141,7 +141,12 @@ async function handle(msg,sender) {
       const selected=msg.manualFrames?.find(p=>p.frameId===f.frameId && p.url===f.page.url && p.section===f.page.section && p.exercise===f.page.exercise);
       return Boolean(selected && (!lesson.section||!f.page.section||lesson.section===f.page.section) && (!lesson.exercise||!f.page.exercise||MEL.norm(lesson.exercise)===MEL.norm(f.page.exercise)));
     });
-    if(/word\s*(?:square|search)/i.test(lesson.instruction||'')&&/first.*last\s+letter/i.test(lesson.instruction||''))return {tabId:tab.id,kind:'word-search-unresolved',fallback:false,message:'Đã nhận dạng tìm từ trong bảng chữ. Cần cấu trúc ô và trạng thái từ đã chọn: bấm Xuất chẩn đoán bài này; bản này đã bổ sung thu bảng chữ. Chưa hỗ trợ tự bấm hai đầu từ.'};
+    if(/word\s*(?:square|search)/i.test(lesson.instruction||'')&&/first.*last\s+letter/i.test(lesson.instruction||'')){
+      const grids=matching.filter(f=>f.page.wordSearch);
+      if(grids.length!==1)return {tabId:tab.id,kind:'word-search-unresolved',fallback:false,message:'Chưa có đúng một bảng tìm từ khớp bài. Xuất chẩn đoán để kiểm tra cấu trúc.'};
+      const result=await run(tab.id,grids[0].frameId,'wordSearchFill',[lesson,msg.onlyN||'']);
+      return {tabId:tab.id,fallback:false,...result,message:`Đã chọn ${result.done} từ; ${result.skipped} từ đã có được giữ nguyên. ${result.error||'Đã kiểm tra danh sách từ và các ô được chọn; chưa xác nhận Pearson đã lưu.'}`};
+    }
     const multipleWords=matching.filter(f=>f.page.multipleWords);
     if(multipleWords.length){
       if(multipleWords.length!==1)throw new Error('Có nhiều khung chọn từ cùng khớp. Chỉ để một bài đang mở.');

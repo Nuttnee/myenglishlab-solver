@@ -1,5 +1,9 @@
 # Quy tắc tự làm
 
+## Tìm từ trong bảng chữ — 1.14.12
+
+Dùng cấu trúc wordsearchGrid/wordsearchGridRow/wordsearchItem và danh sách wordsearchAnswersList đã quan sát trong chẩn đoán. Yêu cầu một lưới duy nhất với hàng/cột đều; tìm đường thẳng tám hướng theo nội dung ô, mỗi từ có một đường duy nhất. Danh sách từ và tập ô active phải nhất quán, ví dụ phải khớp trước khi bấm. Chỉ gọi click hai đầu, không ghi trực tiếp kết quả. Sau mỗi từ kiểm tra danh sách tăng đúng một từ và active khớp hợp các đường đã chọn. Giữ từ đã có, không xóa từ lạ, không thử thêm cơ chế sau lỗi; dừng khi hủy hoặc lưới thay đổi. Không nhánh theo lesson ID.
+
 Giữ nền v11 và seed study nguyên vẹn. Quy tắc thao tác dựa trên cấu trúc điều khiển; không thêm nhánh theo lesson ID để sửa từng bài.
 
 ## Nhận bài và điều khiển

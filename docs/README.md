@@ -4,7 +4,7 @@
 
 - [Cài đặt và sử dụng](usage.md)
 - [Quy tắc thao tác và ghép đáp án](development/interaction-rules.md)
-- [Ghi chú bản mới nhất](releases/v1.14.11.md)
+- [Ghi chú bản mới nhất](releases/v1.14.12.md)
 - [Release đầu tiên](releases/v1.14.4.md)
 
 ## Mã nguồn và đóng gói
@@ -17,7 +17,7 @@ Các kiểm thử `.cjs` cần Node.js, Playwright và Chromium/Edge hỗ trợ 
 
 ## Kiểm thử theo tính năng
 
-- [Chẩn đoán bảng tìm từ — 9.2 Ex 1A](verification-word-search.md)
+- [Tự tìm từ trong bảng chữ — 9.2 Ex 1A](verification-word-search.md)
 
 - [Checkbox selected/not selected — 9.1 Reading Ex 5](verification-checkbox-states.md)
 
