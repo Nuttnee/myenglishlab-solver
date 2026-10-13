@@ -4,7 +4,7 @@
 
 - [Cài đặt và sử dụng](usage.md)
 - [Quy tắc thao tác và ghép đáp án](development/interaction-rules.md)
-- [Ghi chú bản mới nhất](releases/v1.14.7.md)
+- [Ghi chú bản mới nhất](releases/v1.14.8.md)
 - [Release đầu tiên](releases/v1.14.4.md)
 
 ## Mã nguồn và đóng gói
