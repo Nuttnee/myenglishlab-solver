@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MyEnglishLab Solver",
-  "version": "1.14.10",
+  "version": "1.14.11",
   "description": "Unit 1–10: kho đáp án, điền ô, chọn đáp án và hỗ trợ kéo thả trên MyEnglishLab.",
   "minimum_chrome_version": "111",
   "permissions": [
@@ -32,6 +32,7 @@
       "js": [
         "lib/rules.js",
         "lib/context.js",
+        "lib/word-search.js",
         "lib/letters.js",
         "lib/crossword.js",
         "lib/insert-word.js",

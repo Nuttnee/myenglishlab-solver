@@ -26,7 +26,7 @@ async function frames(tabId) {
 }
 async function ensure(tabId) {
   const list = await frames(tabId);
-  const results = await Promise.allSettled(list.map(f => chrome.scripting.executeScript({target:{tabId,frameIds:[f.frameId]},files:['lib/rules.js','lib/context.js','lib/letters.js','lib/crossword.js','lib/insert-word.js','lib/multiple-words.js','lib/page.js','content.js']})));
+  const results = await Promise.allSettled(list.map(f => chrome.scripting.executeScript({target:{tabId,frameIds:[f.frameId]},files:['lib/rules.js','lib/context.js','lib/word-search.js','lib/letters.js','lib/crossword.js','lib/insert-word.js','lib/multiple-words.js','lib/page.js','content.js']})));
   const ready = list.filter((_,i) => results[i].status === 'fulfilled');
   if (!ready.length) throw new Error('Không truy cập được nội dung bài. Tải lại trang MyEnglishLab sau khi cài extension.');
   return ready;
@@ -141,6 +141,7 @@ async function handle(msg,sender) {
       const selected=msg.manualFrames?.find(p=>p.frameId===f.frameId && p.url===f.page.url && p.section===f.page.section && p.exercise===f.page.exercise);
       return Boolean(selected && (!lesson.section||!f.page.section||lesson.section===f.page.section) && (!lesson.exercise||!f.page.exercise||MEL.norm(lesson.exercise)===MEL.norm(f.page.exercise)));
     });
+    if(/word\s*(?:square|search)/i.test(lesson.instruction||'')&&/first.*last\s+letter/i.test(lesson.instruction||''))return {tabId:tab.id,kind:'word-search-unresolved',fallback:false,message:'Đã nhận dạng tìm từ trong bảng chữ. Cần cấu trúc ô và trạng thái từ đã chọn: bấm Xuất chẩn đoán bài này; bản này đã bổ sung thu bảng chữ. Chưa hỗ trợ tự bấm hai đầu từ.'};
     const multipleWords=matching.filter(f=>f.page.multipleWords);
     if(multipleWords.length){
       if(multipleWords.length!==1)throw new Error('Có nhiều khung chọn từ cùng khớp. Chỉ để một bài đang mở.');

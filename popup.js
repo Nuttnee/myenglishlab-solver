@@ -95,22 +95,23 @@ async function autoFill(l,onlyN='') {
 }
 function renderLesson(l) {
   const root=$('lesson'); root.replaceChildren();
-  const crossword=MEL.isCrossword(l);
+  const crossword=MEL.isCrossword(l),wordSearch=/word\s*(?:square|search)/i.test(l.instruction||'')&&/first.*last\s+letter/i.test(l.instruction||'');
   const controlsKnown=state.controlInfo?.lessonId===l.id,noNative=controlsKnown&&!state.controlInfo.hasNative;
   const unsupportedOrdering=l.type==='ordering'&&noNative&&state.controlInfo.hasWordBanks&&!state.controlInfo.sentenceOrdering;
   root.append(h('div',{class:'crumb'},button('← Chọn bài',async()=>{await send('MEL_CANCEL').catch(()=>{});state.lessonId='';clearPlan();render();await persist();},'ghost'),h('span',{},`${l.course.toUpperCase()} · Unit ${l.unit}`)),h('h2',{},MEL.title(l)),h('div',{class:'meta'},h('span',{class:'tag type'},MEL.isCrossword(l)?'Ô chữ':MEL.label(l.type)),h('span',{class:'tag'},l.skill || 'Đáp án')));
   if (l.instruction) root.append(h('p',{class:'instruction'},l.instruction));
   if (MEL.needsReview(l)) root.append(h('p',{class:'review-note'},l.reviewNote || 'Một phần đáp án hoặc số bài trong nguồn cần đối chiếu. Kiểm tra đúng câu trước khi điền.'));
   if (l.passage) root.append(h('details',{},h('summary',{class:'small'},'Nội dung / hộp từ của bài'),h('p',{class:'passage'},l.passage)));
-  const primary=button(state.controlInfo?.hasMultiple?'Tự chọn các từ trong đoạn':state.controlInfo?.hasInsert?'Tự chèn từ đúng vị trí':crossword?'Tự điền ô chữ':l.type==='matching'&&state.controlInfo?.lineMatching?'Tự nối các cặp':MEL.isSentenceRanking(l)?(state.controlInfo?.hasNative?'Tự điền số thứ tự':'Tự xếp câu theo thứ tự'):unsupportedOrdering?'Chưa hỗ trợ tự sắp xếp':l.type==='ordering'&&state.controlInfo?.sentenceOrdering?'Tự sắp xếp cả bài':isDragLesson(l)?'Tự làm cả bài':noNative&&state.controlInfo.hasDrag?'Tự kéo thả cả bài':state.controlInfo?.hasInline?'Tự chọn từ cả bài':l.type==='tick_box'?'Tự tích đáp án cả bài':'Tự điền cả bài',()=>autoFill(l));
-  primary.dataset.autoFill='true';primary.disabled=filling||unsupportedOrdering;
+  const primary=button(wordSearch?'Chưa hỗ trợ tự tìm từ':state.controlInfo?.hasMultiple?'Tự chọn các từ trong đoạn':state.controlInfo?.hasInsert?'Tự chèn từ đúng vị trí':crossword?'Tự điền ô chữ':l.type==='matching'&&state.controlInfo?.lineMatching?'Tự nối các cặp':MEL.isSentenceRanking(l)?(state.controlInfo?.hasNative?'Tự điền số thứ tự':'Tự xếp câu theo thứ tự'):unsupportedOrdering?'Chưa hỗ trợ tự sắp xếp':l.type==='ordering'&&state.controlInfo?.sentenceOrdering?'Tự sắp xếp cả bài':isDragLesson(l)?'Tự làm cả bài':noNative&&state.controlInfo.hasDrag?'Tự kéo thả cả bài':state.controlInfo?.hasInline?'Tự chọn từ cả bài':l.type==='tick_box'?'Tự tích đáp án cả bài':'Tự điền cả bài',()=>autoFill(l));
+  primary.dataset.autoFill='true';primary.disabled=filling||unsupportedOrdering||wordSearch;
   const controls=h('section',{class:'fill-controls','aria-label':'Điền đáp án'},h('div',{class:'actions'},primary,button('Copy cả bài',()=>copy([...l.items.filter(x=>!x.isExample).map(x=>`${x.n}. ${x.answer.join(' / ')}`),l.modelAnswer?.text || ''].filter(Boolean).join('\n')),'ghost')));
-  if(crossword)controls.append(h('p',{class:'small'},'Tự ghép từ ngang/dọc, giữ chữ ví dụ và kiểm tra ô giao nhau.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click(),'ghost'));
+  if(wordSearch)controls.append(h('p',{class:'small'},'Bài tìm từ bằng chữ đầu và chữ cuối. Xuất chẩn đoán để lấy cấu trúc bảng chữ và danh sách từ đã chọn.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click(),'ghost'));
+  else if(crossword)controls.append(h('p',{class:'small'},'Tự ghép từ ngang/dọc, giữ chữ ví dụ và kiểm tra ô giao nhau.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click(),'ghost'));
   else if(unsupportedOrdering)controls.append(h('p',{class:'review-note'},'Đã nhận đúng bài. Bản này chưa tự kéo từng từ để dựng câu. Xuất file chẩn đoán để bổ sung cơ chế kéo thả.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click()));
   else if(state.controlInfo?.hasMultiple)controls.append(h('p',{class:'small'},'Chọn từ theo ngữ cảnh từng câu, giữ ví dụ và từ đã chọn đúng. Nếu có lựa chọn khác, dừng để bạn kiểm tra.'));
   else if(state.controlInfo?.hasInsert)controls.append(h('p',{class:'small'},'Tự hiện ô ở khoảng trống khớp với câu rồi nhập từ. Giữ ví dụ và ô có nội dung khác.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click(),'ghost'));
   else if(noNative)controls.append(h('p',{class:'small'},l.type==='matching'?(state.controlInfo?.lineMatching?'Tự bấm hai đầu và kiểm tra đường nối. Giữ cặp ví dụ và cặp đã nối với đáp án khác.':'Bài nối cặp: thử tự làm; nếu chưa hỗ trợ đường nối, xuất chẩn đoán để lấy cấu trúc hai cột.'):'Không có ô nhập phù hợp; chế độ bấm ô nhập không áp dụng.'),button('↓ Xuất chẩn đoán bài này',()=>$('diagnosticBtn').click(),'ghost'));
-  if(flatAnswers(l).length&&!noNative&&!crossword) {
+  if(flatAnswers(l).length&&!noNative&&!crossword&&!wordSearch) {
     const answers=flatAnswers(l),start=h('select',{id:'sequenceStart','aria-label':'Bắt đầu điền từ câu'},answers.map((a,i)=>h('option',{value:String(i)},`${i+1}. Câu ${a.n}: ${a.value}`)));
     controls.append(h('p',{class:'small'},isDragLesson(l)?'Các ô nhập/chọn trên trang có thể dùng chế độ bấm lần lượt. Chế độ này không kéo các thẻ từ.':'Ưu tiên tự làm cả bài. Với cụm ô một chữ: bấm một ô trắng để điền các chữ còn thiếu của cả từ, giữ nguyên chữ gợi ý. Bấm ô lần lượt sẽ chuyển sang từ tiếp theo.'),h('label',{},'Bắt đầu từ',start),h('div',{class:'actions'},button('Bấm ô lần lượt',()=>startSequence(l,Number(start.value))),button('Xem / đổi ghép ô',()=>scan(l),'ghost')));
   }
@@ -131,7 +132,7 @@ function renderLesson(l) {
       if (parts.length>1) {
         const part=h('select',{'aria-label':`Chọn phần đáp án câu ${item.n}`,onchange:e=>selected=e.target.value},h('option',{value:answer},'Cả đáp án: '+answer),parts.map((a,i)=>h('option',{value:a},`Ô ${i+1}: ${a}`)));row.append(part);
       }
-      const actions=h('div',{class:'actions'},unsupportedOrdering?null:(crossword||isDragLesson(l)||state.controlInfo?.hasInsert||state.controlInfo?.hasMultiple)?button('Tự làm câu này',()=>autoFill(l,item.n)):button('Chỉ vị trí → Điền/chọn',()=>startPick('fill',selected)),button('Copy',()=>copy(selected),'ghost'));
+      const actions=h('div',{class:'actions'},(unsupportedOrdering||wordSearch)?null:(crossword||isDragLesson(l)||state.controlInfo?.hasInsert||state.controlInfo?.hasMultiple)?button('Tự làm câu này',()=>autoFill(l,item.n)):button('Chỉ vị trí → Điền/chọn',()=>startPick('fill',selected)),button('Copy',()=>copy(selected),'ghost'));
       if (l.type==='matching'&&!state.controlInfo?.lineMatching) actions.append(button('Nối 2 vị trí',()=>startPick('pair',selected),'ghost'));
       row.append(actions);
     }
