@@ -46,7 +46,7 @@ Extension giữ các ví dụ có sẵn và báo những câu chưa ghép đư�
 
 - 🚀 **[Cách dùng & xử lý sự cố](docs/usage.md)** — cài đặt, cập nhật, chọn bài và gửi chẩn đoán.
 - 🧪 **[Kiểm thử & cấu trúc mã](docs/README.md)** — báo cáo theo tính năng và cách đóng gói.
-- 📦 **[Ghi chú phát hành](docs/releases/v1.14.14.md)** — thay đổi trong bản mới nhất.
+- 📦 **[Ghi chú phát hành](docs/releases/v1.14.15.md)** — thay đổi trong bản mới nhất.
 
 ## 🛠️ Dành cho phát triển
 
