@@ -1,0 +1,291 @@
+{
+  "version": "1.14.25",
+  "engine": {
+    "jquery": true,
+    "jqueryUI": true,
+    "pointer": true
+  },
+  "containers": [
+    {
+      "classes": "wordpoolWrapper ui-draggable",
+      "children": [
+        {
+          "tag": "DIV",
+          "classes": "wordpoolMove",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "Move",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag example",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "fresh air",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "dolphin",
+          "attributes": {
+            "aria-label": "dolphin draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "bear",
+          "attributes": {
+            "aria-label": "bear draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "monkey",
+          "attributes": {
+            "aria-label": "monkey draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "ocean",
+          "attributes": {
+            "aria-label": "ocean draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "cheetah",
+          "attributes": {
+            "aria-label": "cheetah draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "lake",
+          "attributes": {
+            "aria-label": "lake draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "pigeon",
+          "attributes": {
+            "aria-label": "pigeon draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "geographical features",
+          "attributes": {
+            "aria-label": "geographical features draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "mosquito",
+          "attributes": {
+            "aria-label": "mosquito draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "wildlife centre",
+          "attributes": {
+            "aria-label": "wildlife centre draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "coastline",
+          "attributes": {
+            "aria-label": "coastline draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "shark",
+          "attributes": {
+            "aria-label": "shark draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "eagle",
+          "attributes": {
+            "aria-label": "eagle draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag",
+          "parentClass": "wordpoolWrapper ui-draggable",
+          "text": "whale",
+          "attributes": {
+            "aria-label": "whale draggable",
+            "draggable": "true",
+            "role": "option"
+          }
+        }
+      ]
+    },
+    {
+      "classes": "droppableWrapper",
+      "children": [
+        {
+          "tag": "DIV",
+          "classes": "categorisationBox",
+          "parentClass": "droppableWrapper",
+          "text": "natural places/the outdoors fresh air (Example)",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxTitle",
+          "parentClass": "categorisationBox",
+          "text": "natural places/the outdoors",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxBody",
+          "parentClass": "categorisationBox",
+          "text": "fresh air (Example)",
+          "attributes": {
+            "aria-label": "Drop items here",
+            "role": "region"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "drag example",
+          "parentClass": "boxBody",
+          "text": "fresh air (Example)",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "categorisationBox empty",
+          "parentClass": "droppableWrapper",
+          "text": "land animals",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxTitle",
+          "parentClass": "categorisationBox empty",
+          "text": "land animals",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxBody",
+          "parentClass": "categorisationBox empty",
+          "text": "",
+          "attributes": {
+            "aria-label": "Drop items here",
+            "role": "region"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "categorisationBox empty",
+          "parentClass": "droppableWrapper",
+          "text": "animals that fly",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxTitle",
+          "parentClass": "categorisationBox empty",
+          "text": "animals that fly",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxBody",
+          "parentClass": "categorisationBox empty",
+          "text": "",
+          "attributes": {
+            "aria-label": "Drop items here",
+            "role": "region"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "categorisationBox empty",
+          "parentClass": "droppableWrapper",
+          "text": "animals that live in water",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxTitle",
+          "parentClass": "categorisationBox empty",
+          "text": "animals that live in water",
+          "attributes": {}
+        },
+        {
+          "tag": "DIV",
+          "classes": "boxBody",
+          "parentClass": "categorisationBox empty",
+          "text": "",
+          "attributes": {
+            "aria-label": "Drop items here",
+            "role": "region"
+          }
+        }
+      ]
+    }
+  ]
+}
