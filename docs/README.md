@@ -4,7 +4,7 @@
 
 - [Cài đặt và sử dụng](usage.md)
 - [Quy tắc thao tác và ghép đáp án](development/interaction-rules.md)
-- [Ghi chú bản mới nhất](releases/v1.14.23.md)
+- [Ghi chú bản mới nhất](releases/v1.14.24.md)
 - [Release đầu tiên](releases/v1.14.4.md)
 
 ## Mã nguồn và đóng gói
@@ -16,6 +16,8 @@ Từ thư mục repo, chạy `python tools/package-release.py`. Kết quả nằ
 Các kiểm thử `.cjs` cần Node.js, Playwright và Chromium/Edge hỗ trợ extension. Ví dụ: `node tests/money-overview.cjs`. Có thể đặt `MEL_TEST_BROWSER` thành đường dẫn trình duyệt. Riêng bài smoke test này hỗ trợ `MEL_TEST_EXTENSION` để chạy trên thư mục giải nén từ ZIP.
 
 ## Kiểm thử theo tính năng
+
+- [Review 3 Exercise 10 — mạo từ trong đoạn văn](verification-review-articles.md)
 
 - [Review 3 Exercise 7B — customer/sales assistant](verification-review-shopping-speakers.md)
 

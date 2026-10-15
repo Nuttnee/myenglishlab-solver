@@ -36,6 +36,8 @@ Giữ nền v11 và seed study nguyên vẹn. Quy tắc thao tác dựa trên c�
 
 ## Phạm vi còn thiếu
 
+Dropdown trong đoạn có prompt ngắn được xét khi mọi từ ngay trước/sau chỗ trống trong nguồn đều khớp (tổng ít nhất hai từ), một chỗ trống, option duy nhất và ghép hai chiều không mơ hồ. Chỉ giữ ghép ngắn nếu có ít nhất hai ô select khác cùng context/slotCount đã ghép bằng bằng chứng mạnh; ghép ngắn không được dùng làm mốc cho nhau. Không dùng thứ tự để đoán ô, không áp dụng quy tắc này cho radio hay text input.
+
 Danh sách chọn từ có thể lưu selected/not selected trên từng nhãn hoặc một prompt `Select the words ...:` liệt kê nhãn bằng dấu phẩy với đáp án phân tách `|`. Dạng sau phải có ví dụ riêng khớp, ít nhất sáu nhãn duy nhất, đáp án là tập con duy nhất. Nhận bài bằng toàn bộ danh sách; thao tác vẫn yêu cầu đúng một nhóm token role button/aria-pressed, đủ nhãn và ví dụ. Các vị trí riêng dùng số câu ghép với chỉ số đáp án (như 1.5), không dùng thứ tự từ trên màn hình. Không phân nhánh theo lesson ID; cấu trúc không rõ chỉ xuất chẩn đoán vùng nhãn.
 
 Custom listbox, ánh xạ lựa chọn A/B/C tới chữ đáp án, click-token, sortable, hidden radio không có label, đích kéo chưa có dấu hiệu nhận diện, closed Shadow DOM/canvas và sự kiện trusted cần thêm adapter và bằng chứng DOM/event thực tế. Không suy rộng nhãn loại bài thành bảo đảm hỗ trợ.
