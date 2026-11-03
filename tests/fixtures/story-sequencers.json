@@ -1,0 +1,350 @@
+[
+ {
+  "cls": "wordpoolWrapper ui-draggable",
+  "id": "wordpoolWrapperi_1",
+  "children": [
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "Finally, when we arrived, the hotel didn't have our reservation.",
+    "attrs": {
+     "aria-label": "Finally, when we arrived, the hotel didn't have our reservation. draggable",
+     "data-id": "i_1--drag_and_drop--8",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "We waited, and after a while we had to fly to a different airport.",
+    "attrs": {
+     "aria-label": "We waited, and after a while we had to fly to a different airport. draggable",
+     "data-id": "i_1--drag_and_drop--6",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag example disabled",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "The holiday was a disaster.",
+    "attrs": {
+     "data-id": "i_1--drag_and_drop--4"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "Then we went out for a pizza.",
+    "attrs": {
+     "aria-label": "Then we went out for a pizza. draggable",
+     "data-id": "i_1--drag_and_drop--2",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "First, we met in a bar in town.",
+    "attrs": {
+     "aria-label": "First, we met in a bar in town. draggable",
+     "data-id": "i_1--drag_and_drop--1",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "First, the flight was cancelled.",
+    "attrs": {
+     "aria-label": "First, the flight was cancelled. draggable",
+     "data-id": "i_1--drag_and_drop--5",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "After the meal, we went dancing.",
+    "attrs": {
+     "aria-label": "After the meal, we went dancing. draggable",
+     "data-id": "i_1--drag_and_drop--3",
+     "draggable": "true",
+     "role": "option"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag example disabled",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "We had a great night out.",
+    "attrs": {
+     "data-id": "i_1--drag_and_drop--0"
+    }
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag",
+    "id": "",
+    "parent": "wordpoolWrapper ui-draggable",
+    "text": "Then, our taxi broke down on the way to the hotel.",
+    "attrs": {
+     "aria-label": "Then, our taxi broke down on the way to the hotel. draggable",
+     "data-id": "i_1--drag_and_drop--7",
+     "draggable": "true",
+     "role": "option"
+    }
+   }
+  ]
+ },
+ {
+  "cls": "droppableWrapper",
+  "id": "",
+  "children": [
+   {
+    "tag": "DIV",
+    "cls": "dndlh",
+    "id": "",
+    "parent": "droppableWrapper",
+    "text": "Story 1 We had a great night out. Story 2 The holiday was a disaster.",
+    "attrs": {}
+   },
+   {
+    "tag": "B",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "Story 1",
+    "attrs": {}
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop example",
+    "id": "i_1RESPONSE_1",
+    "parent": "dndlh",
+    "text": "We had a great night out.",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag example disabled",
+    "id": "",
+    "parent": "drop example",
+    "text": "We had a great night out.",
+    "attrs": {
+     "data-id": "i_1--drag_and_drop--0"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_2",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_3",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_4",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "B",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "Story 2",
+    "attrs": {}
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop example",
+    "id": "i_1RESPONSE_5",
+    "parent": "dndlh",
+    "text": "The holiday was a disaster.",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drag example disabled",
+    "id": "",
+    "parent": "drop example",
+    "text": "The holiday was a disaster.",
+    "attrs": {
+     "data-id": "i_1--drag_and_drop--4"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_6",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_7",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_8",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   },
+   {
+    "tag": "BR",
+    "cls": "",
+    "id": "",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {}
+   },
+   {
+    "tag": "DIV",
+    "cls": "drop",
+    "id": "i_1RESPONSE_9",
+    "parent": "dndlh",
+    "text": "",
+    "attrs": {
+     "aria-label": "Drop items here",
+     "role": "region"
+    }
+   }
+  ]
+ }
+]
