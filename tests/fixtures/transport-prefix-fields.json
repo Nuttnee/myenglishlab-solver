@@ -1,0 +1,304 @@
+{
+  "fields": [
+    {
+      "context": "",
+      "current": "sp",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "0",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "s",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "1",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "he",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "2",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "m",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "3",
+      "slot": 0,
+      "slotCount": 2
+    },
+    {
+      "context": "",
+      "current": "b",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "4",
+      "slot": 1,
+      "slotCount": 2
+    },
+    {
+      "context": "",
+      "current": "c",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "5",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "tr",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "6",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "f",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "7",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "m",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "8",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "mi",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "9",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "a",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "10",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "u",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "11",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "l",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "12",
+      "slot": 0,
+      "slotCount": 1
+    },
+    {
+      "context": "",
+      "current": "h",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "13",
+      "slot": 0,
+      "slotCount": 3
+    },
+    {
+      "context": "",
+      "current": "a",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "14",
+      "slot": 1,
+      "slotCount": 3
+    },
+    {
+      "context": "",
+      "current": "b",
+      "kind": "text",
+      "maxLength": -1,
+      "questionNumber": "",
+      "ref": "15",
+      "slot": 2,
+      "slotCount": 3
+    }
+  ],
+  "structure": [
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent firstLetterFillin",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent firstLetterFillin",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "item",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "LI",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "itemContent firstLetterFillin",
+        "dataId": null,
+        "role": null,
+        "tabIndex": -1,
+        "tag": "DIV",
+        "text": "",
+        "type": null
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "classes": "normalWidth",
+        "dataId": null,
+        "role": null,
+        "tabIndex": 0,
+        "tag": "INPUT",
+        "text": "",
+        "type": "text"
+      }
+    ]
+  ]
+}
